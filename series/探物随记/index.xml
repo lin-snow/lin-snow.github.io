@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>探物随记 on L1nSn0w's Site</title><link>https://linsnow.cn/series/%E6%8E%A2%E7%89%A9%E9%9A%8F%E8%AE%B0/</link><description>Recent content in 探物随记 on L1nSn0w's Site</description><generator>Hugo</generator><language>zh-cn</language><copyright>© 2020-2024 L1nSn0w</copyright><lastBuildDate>Sat, 09 Dec 2023 18:56:24 +0800</lastBuildDate><atom:link href="https://linsnow.cn/series/%E6%8E%A2%E7%89%A9%E9%9A%8F%E8%AE%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>工欲善其事</title><link>https://linsnow.cn/posts/objectnotes/softwares/</link><pubDate>Sat, 09 Dec 2023 18:56:24 +0800</pubDate><guid>https://linsnow.cn/posts/objectnotes/softwares/</guid><description>&lt;h2 id="先听我狡辩">🤣先听我狡辩&lt;/h2>
+&lt;p>这个软件清单记录了软件的名称，官网和我&lt;code>主观&lt;/code>的简短描述。把电脑使用的软件列出来，方便以后电脑重装后安装，而且记录下来的软件官网可以防止下载到不安全的软件。这张清单可能会随着后续我电脑使用软件的情况进行更新.&lt;/p>
+&lt;h2 id="系统">系统&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Windows 11&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.microsoft.com/software-download/windows11">https://www.microsoft.com/software-download/windows11&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">MacOS用不起，Linux不适合日常，只好Windows11咯.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">微PE&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.wepe.com.cn/">https://www.wepe.com.cn/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">家中常备，电脑出事了全靠它&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Ubuntu&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://ubuntu.com/">https://ubuntu.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">虚拟机中安装镜像&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="驱动程序">驱动程序&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">NVIDIA Driver&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.nvidia.com/download/index.aspx">https://www.nvidia.com/download/index.aspx&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">n卡用户必备&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">AMD Drivers&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.amd.com/support">https://www.amd.com/support&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">amd必备驱动&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Thinkbook16+&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://newthink.lenovo.com.cn/">https://newthink.lenovo.com.cn/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Thinkbook16+用户需要的官网驱动&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="上网冲浪">上网冲浪&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Chrome&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.google.com/intl/zh-CN/chrome/">https://www.google.com/intl/zh-CN/chrome/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">目前唯一使用的浏览器，还不错&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="社交软件">社交软件&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">微信&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://weixin.qq.com/">https://weixin.qq.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">一款“小而美”的聊天软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">NTQQ&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://im.qq.com/pcqq/index.shtml">https://im.qq.com/pcqq/index.shtml&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">超级好用的新版架构QQ&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Telegram&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://telegram.org/">https://telegram.org/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">找资源全靠它，还有各种好玩的频道&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="开发软件">开发软件&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">IntelliJ IDEA&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.jetbrains.com/idea/">https://www.jetbrains.com/idea/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Java必备&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">PyCharm&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Python必备&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">CLion&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.jetbrains.com/clion/">https://www.jetbrains.com/clion/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用来写一些C语言项目还不错&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">VS Code&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://code.visualstudio.com/">https://code.visualstudio.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">轻量的万能编辑器，日常编辑代码全靠它&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">FinalShell&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.hostbuf.com/">https://www.hostbuf.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">超级好用的SSH工具&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">VMware Workstation Pro&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.vmware.com/products/workstation-pro.html">https://www.vmware.com/products/workstation-pro.html&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">功能强大的虚拟机软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Windows Terminal&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/microsoft/terminal">https://github.com/microsoft/terminal&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">集成了git,powershell等，非常方便&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">PowerShell&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/PowerShell/PowerShell">https://github.com/PowerShell/PowerShell&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">感觉比cmd好用，更新也比较频繁&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Git&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://git-scm.com/">https://git-scm.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="开发环境">开发环境&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">MinGW-w64&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.mingw-w64.org/">https://www.mingw-w64.org/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用来配置c语言&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Python&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.python.org/">https://www.python.org/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Python环境&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Java JDK&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.oracle.com/java/technologies/downloads/">https://www.oracle.com/java/technologies/downloads/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Java环境&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Hugo&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://gohugo.io/">https://gohugo.io/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Hugo博客生成器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Nodejs&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://nodejs.org/en">https://nodejs.org/en&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">JavaScript运行环境&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">CUDA&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://developer.nvidia.com/cuda-downloads">https://developer.nvidia.com/cuda-downloads&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">n卡跑AI必备&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="媒体工具">媒体工具&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Adobe Creative Cloud&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.adobe.com/creativecloud/desktop-app.html">https://www.adobe.com/creativecloud/desktop-app.html&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用来下载最新版的Adobe全家桶&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Adobe Photoshop&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.adobe.com/products/photoshop.html">https://www.adobe.com/products/photoshop.html&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">最强大的P图软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Adobe Premiere Pro&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.adobe.com/products/premiere.html">https://www.adobe.com/products/premiere.html&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">最强大的剪辑软件&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="实用软件">实用软件&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Microsoft Office&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.office.com/">https://www.office.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">办公必备&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Obsidian&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://obsidian.md/">https://obsidian.md/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">万能md编辑器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Snipaste&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.snipaste.com/">https://www.snipaste.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">功能强大的截图软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">V2rayN&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/2dust/v2rayN">https://github.com/2dust/v2rayN&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">懂得都懂&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">QQ音乐&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://y.qq.com/">https://y.qq.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">我觉得是国内综合最好用的听歌软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">图拉丁吧工具箱&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.tbtool.cn/">https://www.tbtool.cn/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">集成了很多强大好用的电脑工具&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">阿里云盘&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.aliyundrive.com/">https://www.aliyundrive.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">较好用的网盘&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">百度网盘&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://pan.baidu.com/">https://pan.baidu.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">存放和下载互联网上分享的资源&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">微信输入法&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://z.weixin.qq.com/">https://z.weixin.qq.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">个人感觉是Windows目前做的最好的第三方输入法&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Bandzip&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.bandisoft.com/bandizip/">https://www.bandisoft.com/bandizip/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">功能强大并且简洁的解压缩软件&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="游戏及平台">游戏及平台&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Steam&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://store.steampowered.com/">https://store.steampowered.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">PC游戏基本全靠它&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Epic&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://store.epicgames.com/">https://store.epicgames.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用来玩e宝送的游戏&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">RockStar Game&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.rockstargames.com/">https://www.rockstargames.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">R星自家的游戏启动器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">EA App&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.ea.com/ea-app">https://www.ea.com/ea-app&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">EA自家的游戏启动器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">PCL2&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://afdian.net/a/LTCat">https://afdian.net/a/LTCat&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">非常好用的MC启动器&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="破解与补丁">破解与补丁&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jetbrain破解补丁&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://3.jetbra.in/">https://3.jetbra.in/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用于Jetbrain全家桶的激活&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Adobe破解补丁&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.cybermania.ws/apps/adobe-genp/">https://www.cybermania.ws/apps/adobe-genp/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用于Adobe全家桶的激活&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">云萌 Windows 10+ 激活工具&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cmwtat.cloudmoe.com/cn.html">https://cmwtat.cloudmoe.com/cn.html#&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Windows10\11安全的开源激活工具&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">VMware Workstation Pro17激活码&lt;/td>
+ &lt;td style="text-align: left">4A4RR-813DK-M81A9-4U35H-06KND&lt;/td>
+ &lt;td style="text-align: left">用于激活VMware Workstation Pro17&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>一份不迟不早Windows11使用体验报告</title><link>https://linsnow.cn/posts/objectnotes/win11-experience/</link><pubDate>Tue, 04 Apr 2023 00:51:54 -0700</pubDate><guid>https://linsnow.cn/posts/objectnotes/win11-experience/</guid><description>&lt;h2 id="和windows11故事的开始">🙌和Windows11故事的开始&lt;/h2>
+&lt;p>像往日一样在网上冲浪，我偶然看到了一条关于Windows11镜像泄露的消息，🙄“什么！巨硬不是说Windows是最后一代Windows吗？不管了，先逝世再说”，准备好U盘，从一个还算靠谱的网站把镜像下载下来，一顿常规操作，Windows安装完毕。看着这所谓的Windows11的界面，不能说跟win10一模一样，可以说是只改了一个开始菜单，其他的几乎没变，其他几乎都没变，用起来还特别卡，只能等官方推正式版了。😂&lt;/p>
+&lt;h2 id="时至今日">😐时至今日&lt;/h2>
+&lt;p>时至今日，Windows11终于勉强好用一些了，虽然仍有一些不如人意，但是不妨碍我拿他&lt;del>水&lt;/del>一篇blog.&lt;/p>
+&lt;h2 id="颜值是第一生产力">🎉“颜值是第一生产力”&lt;/h2>
+&lt;p>&lt;img src="Windows11.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="Windows11" 
+ 
+ />
+&lt;/p>
+&lt;p>这里先小秀一下我的&lt;code>Windows Desktop&lt;/code>,照片经过压缩，有点小糊，你忍一下.&lt;/p>
+&lt;p>现在的Windows11采用的是Mica材质和圆角风格，比起早期的Windows11，现在圆角风格已经适配到了许多app，个人感觉还是很好看的。&lt;/p>
+&lt;h2 id="右键菜单">🤞右键菜单&lt;/h2>
+&lt;p>&lt;img src="youjian.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="右键菜单" 
+ 
+ />
+
+&lt;img src="erjicaidan.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="二级菜单" 
+ 
+ />
+&lt;/p>
+&lt;p>虽然二级菜单可能影响效率，但是它整洁啊！我就喜欢的简洁的布局，安装带有右键菜单的软件增多后，Windows10的右键菜单就会很显示出弊端，长长的一端看起来特别难受。&lt;/p>
+&lt;h2 id="原生输入法">😅原生输入法&lt;/h2>
+&lt;p>&lt;img src="shurufa.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="原生输入法" 
+ 
+ />
+&lt;/p>
+&lt;p>带有Windows11风格的原生输入法比Windows10的小一点，接近macos的风格，win11输入法可以在设置中切换不同风格，但是我个人偏好win11默认dark风格，我一直是很喜欢使用原生输入法的，比起第三方输入法简洁很多。&lt;/p>
+&lt;h2 id="资源管理器">🙄资源管理器&lt;/h2>
+&lt;p>&lt;img src="fileman.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="原生资源管理器" 
+ 
+ />
+&lt;/p>
+&lt;p>Windows11早期的版本的资源管理器可谓是&lt;code>3A大作&lt;/code>，打开要等很多久，而且拖拽也特别卡，不过随着巨硬的不断优化，现在的资源管理器有了明显的好转，动画速度也变快了，而且也优化了OneDrive的使用，原生支持了多标签页，内存占用算是比较低的。&lt;/p>
+&lt;h2 id="emoji">📎Emoji&lt;/h2>
+&lt;p>&lt;img src="emoji.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="Emoji" 
+ 
+ />
+&lt;/p>
+&lt;p>自从微软推出3D风格的emoji,我就喜欢上了emoji的使用，win11上的emoji比较立体圆润，看着非常不错。&lt;/p>
+&lt;h2 id="开始菜单">😃开始菜单&lt;/h2>
+&lt;p>&lt;img src="start.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="开始菜单" 
+ 
+ />
+&lt;/p>
+&lt;p>Windows11的开始菜单在刚出的时候可以说是饱受诟病,不过现在好多了,同样是因为二级菜单的原因,缺少了点效率,但是勉强能接受,平时开始菜单用的不是很多,没什么好说的.&lt;/p></description></item><item><title>记我的第一次捡垃圾之M73</title><link>https://linsnow.cn/posts/objectnotes/m73-hackintosh/</link><pubDate>Sat, 04 Mar 2023 16:45:33 +0800</pubDate><guid>https://linsnow.cn/posts/objectnotes/m73-hackintosh/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>其实这本来打算在寒假写的，但是由于我懒和其他一些原因，就拖到了现在。对于电脑有一点点了解后确实心痒痒，看见图吧大佬各种人才我寻思着自己捡一台垃圾，很幸运的是在b站看到了司波图大佬的捡垃圾视频，我也是成功上车了，前前后后属实很折腾，本篇文章算是记录一下吧，你看到的这篇blog也是在这台电脑下敲的.&lt;/p>
+&lt;h2 id="正文">正文&lt;/h2>
+&lt;p>捡垃圾的渠道我是海鲜市场和某宝配合着用的，因为有些东西在某宝和海鲜市场基本一样的价格。本次捡垃圾也算是比较顺利，花700块钱就装好，用来日常使用和体验macOS，组建Apple生态挺不错的，这价格还要什么自行车&amp;hellip;&lt;/p>
+&lt;h2 id="配置">配置&lt;/h2>
+&lt;p>买的是联想M73 Tiny准系统&lt;/p>
+&lt;blockquote>
+&lt;p>什么是准系统，就是带散热器、机箱、主板的一个套装，买来后只需自行购买欠缺的配件装上就行了.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">配件类别&lt;/th>
+ &lt;th style="text-align: left">具体型号&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">主板&lt;/td>
+ &lt;td style="text-align: left">H81(联想M73 Tiny）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">CPU&lt;/td>
+ &lt;td style="text-align: left">Intel i3-4360标压&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">内存条&lt;/td>
+ &lt;td style="text-align: left">杂牌ddr3 1333MHz 4G*1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">硬盘&lt;/td>
+ &lt;td style="text-align: left">杂牌120g固态硬盘&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">电源&lt;/td>
+ &lt;td style="text-align: left">联系原装90w电源&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">转接头&lt;/td>
+ &lt;td style="text-align: left">dp转hdmi转接头&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">视频输出线&lt;/td>
+ &lt;td style="text-align: left">家里闲置的HDMI转HDMI线&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">网卡&lt;/td>
+ &lt;td style="text-align: left">博通bcm94352hmb&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">天线&lt;/td>
+ &lt;td style="text-align: left">一代的IPEX内置天线&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;/blockquote>
+&lt;p>小机机的外貌，内部图就不拍了，我懒得拆开&lt;/p>
+&lt;p>&lt;img src="m73.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="m73" 
+ 
+ />
+&lt;/p>
+&lt;p>&lt;img src="zhuomian.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;hr>
+&lt;h2 id="折腾之白名单">折腾之白名单&lt;/h2>
+&lt;p>为了能够用上这张bcm94352hmb，联想m73必须刷白名单才行，好在司波图在一期视频有讲解如何刷白名单，算是比较轻松的一部分，不过bios的版本貌似有点低，导致我后续小机机出了各种毛病，无奈只能更新一下bios了，不得不说联想的bios是真的乱，查了好多个联想网站都找不到这台机子的bios，后来才知道得着美国联想官网里才能找到，真是**了，白名单和bios算是折腾完了&lt;/p>
+&lt;h2 id="折腾之黑苹果">折腾之黑苹果&lt;/h2>
+&lt;p>这个为什么很折腾呢，不是网上有很多人做好了efi吗？很不幸，司波图大佬的efi只能安装macOS10.15，无法安装big sur，且开机略慢。GitHub也有开源的一些efi，但是也是各种毛病，且多年没有维护了，问题很多。
+为了完美的体验，只好直接为小机机定制EFI，这里便是噩梦的开始，很折腾，要么开机进去后直接黑屏，要么开机一半自动关机，或者网卡不能驱动，基本都是efi的问题，由于技术有限，只能慢慢对efi做调整，各处爬帖子.
+算是功夫不负有心人，总算是给配出来了，也吃上完了完美黑苹果，真香。&lt;/p>
+&lt;p>&lt;img src="jigailan.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;h2 id="折腾之定制usb">折腾之定制USB&lt;/h2>
+&lt;p>由于macOS11.3之后的系统变动，安装和更新新版必须要定制USB端口，否则会卡代码和USB用不了，无奈只能装个windows给这台机子定制USB端口，更***的是，由于定制好USB后要给efi添加两个驱动，但是我的疏忽，只添加了一个驱动，所以就导致后来的各种毛病，好在后来才发现了问题&amp;hellip;.&lt;/p>
+&lt;h2 id="成果分享之efi">成果分享之EFI&lt;/h2>
+&lt;p>整了这么久，如果没有网上一些热心网友的帮助，我可能还要撞很多坑，因此，我打算把我的EFI也开源出了，让大家使用。
+这里就简单的给我这个EFI做个介绍吧。
+这个EFI提供了过的版本的专属config共选择使用。&lt;/p>
+&lt;p>其中包括从macOS10.15到macOS12各大版本的config文件，使用只需把想要用的config对应的文件改名为&lt;code>config.plist&lt;/code>即可，想要看跑代码过程可以在引导界面按下&lt;code>win+v&lt;/code>键即可.&lt;/p>
+&lt;p>目前该opencore的版本为0.78，全部文件均使用来自官方的最新文件，对每个不必要的选项进行了精简优化，三码已经去掉了，只需自行加上三码即可.但是机型最好不要更改，防止无法安装.后续版本的更新看心情和时间，有问题的可以直接在本文下评论.&lt;/p>
+&lt;h3 id="整个efi大致结构如下">整个EFI大致结构如下：&lt;/h3>
+&lt;p>&lt;img src="EFIjiegou.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>采用oc最新版，包括驱动，并且有我维护，随缘更新.&lt;/p>
+&lt;h3 id="hackintools图">hackintools图：&lt;/h3>
+&lt;p>&lt;img src="hackintoolsgailan.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;h3 id="引导界面">引导界面：&lt;/h3>
+&lt;p>&lt;img src="yindao.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>&lt;img src="kaiji.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p></description></item></channel></rss>

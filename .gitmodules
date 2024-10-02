@@ -1,6 +1,0 @@
-[submodule "themes/xlog"]
-	path = themes/xlog
-	url = https://github.com/lin-snow/hugo-theme-xlog.git
-[submodule "themes/hugo-theme-xlog"]
-	path = themes/hugo-theme-xlog
-	url = https://github.com/lin-snow/hugo-theme-xlog.git

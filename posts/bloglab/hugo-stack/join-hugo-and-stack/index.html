@@ -1,0 +1,305 @@
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content='这里是 [L1nSn0w](/pages/about "关于")使用[xlog](https://github.com/lin-snow/hugo-theme-xlog)和hugo搭建的小天地. 欢迎你到此处逛一逛！如果你对[我](/pages/resume "简历")的内容感兴趣，你可以在[归档](/archives "归档")中找到我之前写的文章。
+我在这里记录了一些技术、生活、学习、娱乐的内容.
+这里也有我的一些[朋友](/pages/links "友链")和我捕捉到的一些[瞬间](/pages/gallery "画廊"),
+希望你在这里能有所收获，也期待你留下自己的足迹，让我知道你的到来。
+'><meta name=keywords content="[L1nSn0w 个人博客 技术分享 生活记录 GDUT 娱乐 学习 前端开发 后端开发 Blog Log Hugo Theme]"><meta name=author content="L1nSn0w"><meta property="og:url" content="https://linsnow.cn/posts/bloglab/hugo-stack/join-hugo-and-stack/"><meta property="og:site_name" content="L1nSn0w's Site"><meta property="og:title" content="带着Stack主题入坑Hugo"><meta property="og:description" content="从零开始用hugo创建你的博客"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-07-30T17:33:05+08:00"><meta property="article:modified_time" content="2023-07-30T17:33:05+08:00"><meta property="article:tag" content="Hugo"><meta property="og:see_also" content="https://linsnow.cn/posts/bloglab/hugo-stack/modify-hugo/"><meta property="og:see_also" content="https://linsnow.cn/posts/bloglab/hugo-stack/deploy-hugo/"><meta name=twitter:card content="summary"><meta name=twitter:title content="带着Stack主题入坑Hugo"><meta name=twitter:description content="从零开始用hugo创建你的博客"><title>L1nSn0w's Site - 带着Stack主题入坑Hugo
+</title><link rel="shortcut icon" href=/favicon.ico type=image/x-icon><link rel=stylesheet href=/minima.9aec67d66f853cf6f91595ace8bebc5aeca7c0db3720799fcb8b22cbfe9a11a7.css integrity="sha256-muxn1m+FPPb5FZWs6L68WuynwNs3IHmfy4siy/6aEac="><link rel=stylesheet href=/font/result.css><script defer type=text/javascript src=/minima.0964224d78e191a563ca25de1a91840b5caf90b78558bb12290983dec5de89db.js integrity="sha256-CWQiTXjhkaVjyiXeGpGEC1yvkLeFWLsSKQmD3sXeids="></script><script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","url":"https:\/\/linsnow.cn\/","name":"L1nSn0w\u0027s Site","description":"这里是 [L1nSn0w](\/pages\/about \u0022关于\u0022)使用[xlog](https:\/\/github.com\/lin-snow\/hugo-theme-xlog)和hugo搭建的小天地. 欢迎你到此处逛一逛！如果你对[我](\/pages\/resume \u0022简历\u0022)的内容感兴趣，你可以在[归档](\/archives \u0022归档\u0022)中找到我之前写的文章。\n我在这里记录了一些技术、生活、学习、娱乐的内容.\n这里也有我的一些[朋友](\/pages\/links \u0022友链\u0022)和我捕捉到的一些[瞬间](\/pages\/gallery \u0022画廊\u0022),\n希望你在这里能有所收获，也期待你留下自己的足迹，让我知道你的到来。\n","author":{"@type":"Person","name":""}}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"L1nSn0w\u0027s Site","item":"https:\/\/linsnow.cn\/"},{"@type":"ListItem","position":2,"name":"带着Stack主题入坑Hugo","item":"https:\/\/linsnow.cn\/posts\/bloglab\/hugo-stack\/join-hugo-and-stack\/"}]}</script><script>const default_theme_config="light",default_light_theme=default_theme_config==="system"?"light":default_theme_config;let default_theme=localStorage.getItem("theme");default_theme||(default_theme=window.matchMedia("(prefers-color-scheme: light)").matches?"light":default_light_theme,localStorage.setItem("theme",default_theme));try{window.minima_theme=default_theme,document.querySelector("html").classList.add(default_theme)}catch(e){console.error(e)}</script><link rel=preload href=/minima.9aec67d66f853cf6f91595ace8bebc5aeca7c0db3720799fcb8b22cbfe9a11a7.css as=style><link rel=preload href=/minima.0964224d78e191a563ca25de1a91840b5caf90b78558bb12290983dec5de89db.js as=script></head><body><header class="mt-3 mb-6"><div class="container mx-auto"><nav class="flex justify-between items-center"><div class="flex items-center"><div id=theme-switch class="text-3xl cursor-pointer">🌝</div></div><ul class="flex items-center text-base font-bold
+whitespace-nowrap overflow-x-auto overflow-y-hidden"><li class="ml-2 mr-2"><a href=/>首页</a></li><li class="ml-2 mr-2"><a href=/series>系列</a></li><li class="ml-2 mr-2"><a href=/search>搜索</a></li></ul><ul class="flex item-center text-sm font-bold"><li class=ml-2><a href=https://linsnow.cn/>cn</a></li></ul></nav></div></header><div class="container mx-auto"><p class="has-image md"><img src=hugostack.png loading=lazy decoding=async alt="Cover image for 带着Stack主题入坑Hugo" class="cover filter-img"></p><br><h1 class="text-4xl font-extrabold mt-6 mb-6">带着Stack主题入坑Hugo</h1><p class=text-sm style=color:#9d725c8a>"从零开始用hugo创建你的博客 "</p><div class="mb-6 text-sm flex justify-between"><div>发布于 &mdash; 2023 年 07 月 30 日</div><div><a class=ml-1 href=/tags/hugo>#hugo</a></div></div><main class=mb-8><article class=md><h2 id=缘起><em>🙃缘起:</em></h2><p>*进坑Hugo这么久了,是时候也开一篇记录一下建站过程了.*本教程是面向小白而写的,所以可能有些东西写的很罗嗦,所以大佬手下留情.本文稍微有点长,所以请保持耐心.😅</p><p><em>写这篇的一个主要原因有三:</em></p><blockquote><ol><li><em>记录并回顾此站从新建文件夹到诞生的主要过程</em></li><li><em>帮助一些小白入坑hugo</em></li><li><em>使文章数加一(doge</em></li></ol></blockquote><hr><h2 id=声明><em>📢声明:</em></h2><p><em>由于本人人菜瘾大,技术十分之有限,写的代码非常之烂,都是本着能用就行写的,所以请大佬手下留情.</em></p><hr><h2 id=本篇教程编写环境><em>📑本篇教程编写环境:</em></h2><p><em>操作系统: <code>Windows 11</code> 专业版 22H2</em></p><p><em>Microsoft Edge版本 107.0.1418.62 (正式版本) (64 位)</em></p><p><em>Markdown编辑器: Typora</em></p><p><em>博客配置编辑器: VS Code</em></p><p><em>命令行工具:Git、Terminal</em></p><p>Hugo版本:<code>hugo v0.123.8 extended windows/amd64</code></p><p>Hugo主题:<code>hugo-theme-stack</code></p><p><em>使用的主要路径: 桌面、D盘</em></p><p><em>基本上就这些了&mldr;.</em></p><h2 id=hugo环境搭建><em>🧀Hugo环境搭建</em></h2><p><em>使用hugo之前,必须配置hugo环境,这跟hexo要安装node和npm差不多.</em> 下载的操作建议按照先安装<code>VScode</code>再安装<code>GIt</code>的顺序操作,因为后面的Git有个设置选项需要先有VScode编辑器</p><h3 id=安装vscode>🎈<em>安装VScode</em></h3><p>1.<em>从官网获取VScode的安装包</em></p><blockquote><p>VScode官网: <a href=https://code.visualstudio.com/Download>https://code.visualstudio.com/Download</a></p></blockquote><p><em><img src=downvscode.png loading=lazy decoding=async alt="No description"></em></p><p>2.<em>打开安装包并安装</em>,选择<code>I accept the agreement</code>,然后选择<code>Next</code></p><p><img src=vscode1.png loading=lazy decoding=async alt="No description"></p><p>3.<code>全部</code>打勾勾后选择下一步,这个很重要!</p><p><img src=vscode2.png loading=lazy decoding=async alt="No description"></p><p>4.选择<code>install</code>开始安装,等待安装完成后选择<code>Finish</code></p><p><img src=vscode3.png loading=lazy decoding=async alt="No description"></p><p>5.至此,VScode就安装完成了,接下来安装<code>Git</code></p><h3 id=安装git>🎈<em>安装Git</em></h3><p>1.从官网下载Git的安装包</p><blockquote><p>Git官网下载地址: <a href=https://git-scm.com/download/win>https://git-scm.com/download/win</a></p></blockquote><p><img src=downgit.webp loading=lazy decoding=async alt="No description"></p><p>2.打开下载好的安装包进行安装</p><p><img src=git1.png loading=lazy decoding=async alt="No description"></p><p>3.直接默认安装路径然后选中下一步</p><p><img src=git2.png loading=lazy decoding=async alt="No description"></p><p>4.直接下一步</p><p><img src=git4.png loading=lazy decoding=async alt="No description"></p><p>5.这里很重要,如果之前没有安装vscode,这里就选不了该选项</p><p><img src=git5.png loading=lazy decoding=async alt="No description"></p><p>6.后面的就全部默认就行,一直选<code>next</code>直到完成安装</p><p>7.至此,<code>git</code>安装完成,接下来进行hugo的安装</p><h3 id=安装hugo>🎈安装hugo</h3><p>1.从hugo官方github仓库下载hugo,记得必须使用带有<code>extended</code>的版本</p><blockquote><p>hugo官方下载地址: <a href=https://github.com/gohugoio/hugo/releases>https://github.com/gohugoio/hugo/releases</a></p></blockquote><p><img src=hugo1.png loading=lazy decoding=async alt="No description"></p><p>2.在D盘下创建文件夹名为<code>hugo</code>,进入<code>hugo</code>文件夹下并创建名为<code>bin</code>的文件夹,将下载下来的zip文件解压到<code>bin</code>里面</p><blockquote><p>完整的路径即为: D:\hugo\bin</p></blockquote><p><img src=hugo2.png loading=lazy decoding=async alt="No description"></p><p>3.接下来设置<code>hugo环境变量</code>,依次打开<code>设置</code>,然后选择<code>系统</code>,滑到下面选择<code>系统信息</code>,打开<code>高级系统设置</code></p><p><img src=hugo3.png loading=lazy decoding=async alt="No description"></p><p>4.打开<code>环境变量</code></p><p><img src=hugo4.png loading=lazy decoding=async alt="No description"></p><p>5.分别进入一下选项中进行添加<code>D:\hugo\bin\</code></p><p><img src=hugo6.png loading=lazy decoding=async alt="No description">
+<img src=hugo7.png loading=lazy decoding=async alt="No description"></p><p>6.检查一下hugo是否安装成功,打开cmd或终端输入<code>hugo version</code>,如果输出一下内容则证明配置成功</p><p><img src=hugo8.png loading=lazy decoding=async alt="No description"></p><h3 id=小结>🎈小结</h3><p>恭喜!到这里,基本就都配置完毕了,现在可以开始博客的搭建了</p><hr><h2 id=hugo博客搭建>🎊Hugo博客搭建</h2><h3 id=初始化博客>🎈初始化博客</h3><p>在<code>桌面右键</code>,选择<code>在终端打开</code>,然后输入以下命令</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>hugo new site blog
+</span></span></code></pre></div><p><img src=blog2.png loading=lazy decoding=async alt="No description"></p><p>然后桌面会出现一个名为<code>blog</code>的文件夹,可以用<code>VScode</code>打开文件夹并打开<code>终端</code>进行后续操作</p><h3 id=hugo-theme-stack安装>🎈hugo-theme-stack安装</h3><p>1.删掉默认的配置文件<code>config.toml</code></p><p><img src=blog3.png loading=lazy decoding=async alt="No description"></p><p>2.打开终端输入以下命令</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>git init
+</span></span><span class=line><span class=cl><span class=c1>#获取主题文件</span>
+</span></span><span class=line><span class=cl>git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+</span></span></code></pre></div><p>3.将获取到的主题文件中的<code>exampleSite</code>中的<code>hugo.yaml</code>拷贝到<code>blog</code>根目录中</p><p>并进行配置,根据自己需要进行配置,这里我贴出自己的配置图共参考</p><blockquote><p>官方配置文档: <a href=https://stack.jimmycai.com/config/>https://stack.jimmycai.com/config/</a></p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nt>baseurl</span><span class=p>:</span><span class=w> </span><span class=l>https://blog.linsnow.cn/</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>languageCode</span><span class=p>:</span><span class=w> </span><span class=l>zh-cn</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>theme</span><span class=p>:</span><span class=w> </span><span class=l>hugo-theme-stack</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>paginate</span><span class=p>:</span><span class=w> </span><span class=m>7</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>title</span><span class=p>:</span><span class=w> </span><span class=l>L1nSn0w&#39;s Blog</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>copyright</span><span class=p>:</span><span class=w> </span><span class=l>L1nSn0w</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c># Theme i18n support</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c># Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>DefaultContentLanguage</span><span class=p>:</span><span class=w> </span><span class=l>zh-cn</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c># Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c># This will make .Summary and .WordCount behave correctly for CJK languages.</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>hasCJKLanguage</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>languages</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>zh-cn</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>languageName</span><span class=p>:</span><span class=w> </span><span class=l>中文</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>title</span><span class=p>:</span><span class=w> </span><span class=l>L1nSn0w&#39;s Blog</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>weight</span><span class=p>:</span><span class=w> </span><span class=m>1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>description</span><span class=p>:</span><span class=w> </span><span class=l>无限进步.✍️</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c># en:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c>#     languageName: Notes</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c>#     title: L1nSn0w&#39;s Notes</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c>#     weight: 2</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c>#     params:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c>#         description: Infinite Progress.🖥️</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>services</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c># Change it to your Disqus shortname before using</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>disqus</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>shortname</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;hugo-theme-stack&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=c># GA Tracking ID</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>googleAnalytics</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>id</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>permalinks</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>post</span><span class=p>:</span><span class=w> </span><span class=l>/p/:slug/</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>page</span><span class=p>:</span><span class=w> </span><span class=l>/:slug/</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>mainSections</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span>- <span class=l>post</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>featuredImageField</span><span class=p>:</span><span class=w> </span><span class=l>image</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>rssFullContent</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>favicon: /img/favicon.ico # e.g.</span><span class=p>:</span><span class=w> </span><span class=l>favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>footer</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>since</span><span class=p>:</span><span class=w> </span><span class=m>2020</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>customText</span><span class=p>:</span><span class=w> </span><span class=l>&lt;a href=&#34;https://beian.miit.gov.cn/&#34; target=&#34;_blank&#34;&gt;粤ICP备2023006542&lt;/a&gt;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>dateFormat</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>published</span><span class=p>:</span><span class=w> </span><span class=l>Jan 02, 2006</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>lastUpdated</span><span class=p>:</span><span class=w> </span><span class=l>Jan 02, 2006 15:04 MST</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>sidebar</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>compact</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>emoji</span><span class=p>:</span><span class=w> </span><span class=l>🍥</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>subtitle</span><span class=p>:</span><span class=w> </span><span class=l>无限进步.✍️</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>avatar</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>enabled</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>local</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>src</span><span class=p>:</span><span class=w> </span><span class=l>/img/avatar.png</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>article</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>math</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>toc</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>readingTime</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>license</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>enabled</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>default</span><span class=p>:</span><span class=w> </span><span class=l>Licensed under CC BY-NC-SA 4.0</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>comments</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>enabled</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>provider</span><span class=p>:</span><span class=w> </span><span class=l>waline</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>disqusjs</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>shortname</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>apiUrl</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>apiKey</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>admin</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>adminLabel</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>utterances</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>repo</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>issueTerm</span><span class=p>:</span><span class=w> </span><span class=l>pathname</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>label</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>beaudar</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>repo</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>issueTerm</span><span class=p>:</span><span class=w> </span><span class=l>pathname</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>label</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>theme</span><span class=p>:</span><span class=w>        
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>remark42</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>host</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>site</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>locale</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>vssue</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>platform</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>owner</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>repo</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>clientId</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>clientSecret</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>autoCreateIssue</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=c># Waline client configuration see: https://waline.js.org/en/reference/component.html</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>waline</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>serverURL</span><span class=p>:</span><span class=w> </span><span class=l>https://comment.linsnow.cn</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>lang</span><span class=p>:</span><span class=w> </span><span class=l>zh-CN</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>pageview</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>search</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>copyright</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>emoji</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>                </span>- <span class=l>/source/Sticker-100/</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>requiredMeta</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>                </span>- <span class=l>name</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>                </span>- <span class=l>email</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>locale</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>                </span><span class=nt>admin</span><span class=p>:</span><span class=w> </span><span class=l>👻屑博主</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>                </span><span class=nt>placeholder</span><span class=p>:</span><span class=w> </span><span class=l>🎉留下你的脚印.</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>reaction</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>twikoo</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>envId</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>region</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>path</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>lang</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=c># See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>cactus</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>defaultHomeserverUrl</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;https://matrix.cactus.chat:8448&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>serverName</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;cactus.chat&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>siteName</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;&#34;</span><span class=w> </span><span class=c># You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>giscus</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>repo</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>repoID</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>category</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>categoryID</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>mapping</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>lightTheme</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>darkTheme</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>reactionsEnabled</span><span class=p>:</span><span class=w> </span><span class=m>1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>emitMetadata</span><span class=p>:</span><span class=w> </span><span class=m>0</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>gitalk</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>owner</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>admin</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>repo</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>clientID</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>clientSecret</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>cusdis</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>host</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>id</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>widgets</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>homepage</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span>- <span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>search</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span>- <span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>archives</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>              </span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>                  </span><span class=nt>limit</span><span class=p>:</span><span class=w> </span><span class=m>3</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span>- <span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>categories</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>              </span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>                  </span><span class=nt>limit</span><span class=p>:</span><span class=w> </span><span class=m>10</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span>- <span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>tag-cloud</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>              </span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>                  </span><span class=nt>limit</span><span class=p>:</span><span class=w> </span><span class=m>10</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>page</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span>- <span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>toc</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>opengraph</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>twitter</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=c># Your Twitter username</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>site</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=c># Available values: summary, summary_large_image</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>card</span><span class=p>:</span><span class=w> </span><span class=l>summary_large_image</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>defaultImage</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>opengraph</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>enabled</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>local</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>src</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>colorScheme</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=c># Display toggle</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>toggle</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=c># Available values: auto, light, dark</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>default</span><span class=p>:</span><span class=w> </span><span class=l>auto</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>imageProcessing</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>cover</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>enabled</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>content</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>enabled</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c>### Custom menu</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c>### See https://docs.stack.jimmycai.com/configuration/custom-menu.html</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=c>### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>menu</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>main</span><span class=p>:</span><span class=w> </span><span class=p>[]</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>social</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span>- <span class=nt>identifier</span><span class=p>:</span><span class=w> </span><span class=l>rss</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>RSS</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>url</span><span class=p>:</span><span class=w> </span><span class=l>/index.xml</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>newTab</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>icon</span><span class=p>:</span><span class=w> </span><span class=l>rss</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        
+</span></span></span><span class=line><span class=cl><span class=w>        </span>- <span class=nt>identifier</span><span class=p>:</span><span class=w> </span><span class=l>github</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>GitHub</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>url</span><span class=p>:</span><span class=w> </span><span class=l>https://github.com/lin-snow</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>newTab</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>icon</span><span class=p>:</span><span class=w> </span><span class=l>brand-github</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            
+</span></span></span><span class=line><span class=cl><span class=w>        </span>- <span class=nt>identifier</span><span class=p>:</span><span class=w> </span><span class=l>memos</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Memos</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>url</span><span class=p>:</span><span class=w> </span><span class=l>https://memos.linsnow.cn</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>newTab</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>icon</span><span class=p>:</span><span class=w> </span><span class=l>memos</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span>- <span class=nt>identifier</span><span class=p>:</span><span class=w> </span><span class=l>gallery</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Gallery</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>url</span><span class=p>:</span><span class=w> </span><span class=l>https://gallery.linsnow.cn</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>params</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>newTab</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>icon</span><span class=p>:</span><span class=w> </span><span class=l>gallery</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>related</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>includeNewer</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>threshold</span><span class=p>:</span><span class=w> </span><span class=m>60</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>toLower</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>indices</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>tags</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>weight</span><span class=p>:</span><span class=w> </span><span class=m>100</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>categories</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>weight</span><span class=p>:</span><span class=w> </span><span class=m>200</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>markup</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>goldmark</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>renderer</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=c>## Set to true if you have HTML content inside Markdown</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=nt>unsafe</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>tableOfContents</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>endLevel</span><span class=p>:</span><span class=w> </span><span class=m>4</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>ordered</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>startLevel</span><span class=p>:</span><span class=w> </span><span class=m>2</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>highlight</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>noClasses</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>codeFences</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>guessSyntax</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>lineNoStart</span><span class=p>:</span><span class=w> </span><span class=m>1</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>lineNos</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>lineNumbersInTable</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>tabWidth</span><span class=p>:</span><span class=w> </span><span class=m>4</span><span class=w>
+</span></span></span></code></pre></div><p>将~themes/hugo-theme-stack/exampleSite里的<code>content</code>整个文件夹复制到根目录中,然后即可在根目录的content中创建md文件进行blog了</p><h3 id=配置博客各个页面>🎈配置博客各个页面</h3><p>这部分的配置在官方文档中很详细,就不重复造轮子了,直接给出官方文档</p><blockquote><p><a href=https://stack.jimmycai.com/config/menu>https://stack.jimmycai.com/config/menu</a></p></blockquote><h3 id=开始创作>🎈开始创作</h3><p>博客文章主要都存放在content中,这里可以参考一下我的content文件夹布局,例如我现在想要创建一篇文章,我们可以在blog根目录下打开终端输入<code>hugo new post/2022/XXXX.md</code>这条命令的意思是在<code>conent/post/2022</code>里创建一个名为<code>XXXX.md</code>的文件</p><blockquote><p>官方写作文档: <a href=https://stack.jimmycai.com/writing/markdown>https://stack.jimmycai.com/writing/markdown</a></p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>├───categories
+</span></span><span class=line><span class=cl>│   ├───blog
+</span></span><span class=line><span class=cl>│   ├───css
+</span></span><span class=line><span class=cl>│   ├───html
+</span></span><span class=line><span class=cl>│   ├───ios
+</span></span><span class=line><span class=cl>│   ├───jailbreak
+</span></span><span class=line><span class=cl>│   ├───javascript
+</span></span><span class=line><span class=cl>│   ├───软件
+</span></span><span class=line><span class=cl>│   └───随笔
+</span></span><span class=line><span class=cl>├───page
+</span></span><span class=line><span class=cl>│   ├───about
+</span></span><span class=line><span class=cl>│   ├───archives
+</span></span><span class=line><span class=cl>│   ├───home
+</span></span><span class=line><span class=cl>│   ├───links
+</span></span><span class=line><span class=cl>│   ├───log
+</span></span><span class=line><span class=cl>│   └───search
+</span></span><span class=line><span class=cl>└───post
+</span></span><span class=line><span class=cl>    ├───2021
+</span></span><span class=line><span class=cl>    ├───2022
+</span></span><span class=line><span class=cl>    │   ├───android-tv
+</span></span><span class=line><span class=cl>    │   ├───app-store-good-things
+</span></span><span class=line><span class=cl>    │   ├───join-hugo-and-stack
+</span></span><span class=line><span class=cl>    │   ├───keykey
+</span></span><span class=line><span class=cl>    │   ├───m73-hackintosh
+</span></span><span class=line><span class=cl>    │   ├───send-file
+</span></span><span class=line><span class=cl>    │   └───setup-apple-books
+</span></span></code></pre></div><p>差不多就这些了,自己摸索一下还是能搞懂的&mldr;.</p><hr></article></main><script src=/lib/view-image/view-image.min.js></script><script>window.ViewImage&&ViewImage.init(".md img")</script><div id=comment></div><script src=/lib/twikoo/twikoo.all.min.js></script><script>twikoo.init({envId:"https://comment.linsnow.cn",el:"#comment",region:"ap-guangzhou",lang:" zh-CN"})</script></div><footer class="mt-8 mb-8"><div class="container mx-auto"><div class="mt-8 flex flex-col-reverse sm:flex-row sm:justify-between items-center"><div class="text-center sm:text-left"><p class="mt-0 text-sm">© 2020-2024 L1nSn0w.</p><p class="mt-0 text-xs">Built with <a href=https://gohugo.io target=_blank rel="noopener noreferrer">Hugo</a> v0.135.0
+and <a href=https://github.com/lin-snow/hugo-theme-xlog target=_blank rel="noopener noreferrer">Xlog</a><br><a href=https://beian.miit.gov.cn/ target=_blank>粤ICP备2023006542</a></p></div><p class="flex items-center mt-0"><a class="icon ml-1 mr-1" href=mailto:l1nsn0w@qq.com title=email><svg width="18" height="18" viewBox="0 0 24 21" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1.0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1.0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+</a><a class="icon ml-1 mr-1" href=https://github.com/lin-snow title=github><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
+</a><a class="icon ml-1 mr-1" href=/index.xml title=rss><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 019 9M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></p></div></div><script>const paragraphs=document.querySelectorAll("article.md p");paragraphs.forEach(e=>{e.querySelector("img")&&e.classList.add("has-image")})</script></footer></body></html>

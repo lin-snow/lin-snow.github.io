@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Softwares on L1nSn0w's Site</title><link>https://linsnow.cn/tags/softwares/</link><description>Recent content in Softwares on L1nSn0w's Site</description><generator>Hugo</generator><language>zh-cn</language><copyright>© 2020-2024 L1nSn0w</copyright><lastBuildDate>Sat, 09 Dec 2023 18:56:24 +0800</lastBuildDate><atom:link href="https://linsnow.cn/tags/softwares/index.xml" rel="self" type="application/rss+xml"/><item><title>工欲善其事</title><link>https://linsnow.cn/posts/objectnotes/softwares/</link><pubDate>Sat, 09 Dec 2023 18:56:24 +0800</pubDate><guid>https://linsnow.cn/posts/objectnotes/softwares/</guid><description>&lt;h2 id="先听我狡辩">🤣先听我狡辩&lt;/h2>
+&lt;p>这个软件清单记录了软件的名称，官网和我&lt;code>主观&lt;/code>的简短描述。把电脑使用的软件列出来，方便以后电脑重装后安装，而且记录下来的软件官网可以防止下载到不安全的软件。这张清单可能会随着后续我电脑使用软件的情况进行更新.&lt;/p>
+&lt;h2 id="系统">系统&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Windows 11&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.microsoft.com/software-download/windows11">https://www.microsoft.com/software-download/windows11&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">MacOS用不起，Linux不适合日常，只好Windows11咯.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">微PE&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.wepe.com.cn/">https://www.wepe.com.cn/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">家中常备，电脑出事了全靠它&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Ubuntu&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://ubuntu.com/">https://ubuntu.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">虚拟机中安装镜像&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="驱动程序">驱动程序&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">NVIDIA Driver&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.nvidia.com/download/index.aspx">https://www.nvidia.com/download/index.aspx&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">n卡用户必备&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">AMD Drivers&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.amd.com/support">https://www.amd.com/support&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">amd必备驱动&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Thinkbook16+&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://newthink.lenovo.com.cn/">https://newthink.lenovo.com.cn/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Thinkbook16+用户需要的官网驱动&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="上网冲浪">上网冲浪&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Chrome&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.google.com/intl/zh-CN/chrome/">https://www.google.com/intl/zh-CN/chrome/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">目前唯一使用的浏览器，还不错&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="社交软件">社交软件&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">微信&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://weixin.qq.com/">https://weixin.qq.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">一款“小而美”的聊天软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">NTQQ&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://im.qq.com/pcqq/index.shtml">https://im.qq.com/pcqq/index.shtml&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">超级好用的新版架构QQ&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Telegram&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://telegram.org/">https://telegram.org/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">找资源全靠它，还有各种好玩的频道&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="开发软件">开发软件&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">IntelliJ IDEA&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.jetbrains.com/idea/">https://www.jetbrains.com/idea/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Java必备&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">PyCharm&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Python必备&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">CLion&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.jetbrains.com/clion/">https://www.jetbrains.com/clion/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用来写一些C语言项目还不错&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">VS Code&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://code.visualstudio.com/">https://code.visualstudio.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">轻量的万能编辑器，日常编辑代码全靠它&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">FinalShell&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.hostbuf.com/">https://www.hostbuf.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">超级好用的SSH工具&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">VMware Workstation Pro&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.vmware.com/products/workstation-pro.html">https://www.vmware.com/products/workstation-pro.html&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">功能强大的虚拟机软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Windows Terminal&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/microsoft/terminal">https://github.com/microsoft/terminal&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">集成了git,powershell等，非常方便&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">PowerShell&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/PowerShell/PowerShell">https://github.com/PowerShell/PowerShell&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">感觉比cmd好用，更新也比较频繁&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Git&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://git-scm.com/">https://git-scm.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="开发环境">开发环境&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">MinGW-w64&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.mingw-w64.org/">https://www.mingw-w64.org/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用来配置c语言&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Python&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.python.org/">https://www.python.org/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Python环境&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Java JDK&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.oracle.com/java/technologies/downloads/">https://www.oracle.com/java/technologies/downloads/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Java环境&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Hugo&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://gohugo.io/">https://gohugo.io/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Hugo博客生成器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Nodejs&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://nodejs.org/en">https://nodejs.org/en&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">JavaScript运行环境&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">CUDA&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://developer.nvidia.com/cuda-downloads">https://developer.nvidia.com/cuda-downloads&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">n卡跑AI必备&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="媒体工具">媒体工具&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Adobe Creative Cloud&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.adobe.com/creativecloud/desktop-app.html">https://www.adobe.com/creativecloud/desktop-app.html&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用来下载最新版的Adobe全家桶&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Adobe Photoshop&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.adobe.com/products/photoshop.html">https://www.adobe.com/products/photoshop.html&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">最强大的P图软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Adobe Premiere Pro&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.adobe.com/products/premiere.html">https://www.adobe.com/products/premiere.html&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">最强大的剪辑软件&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="实用软件">实用软件&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Microsoft Office&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.office.com/">https://www.office.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">办公必备&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Obsidian&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://obsidian.md/">https://obsidian.md/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">万能md编辑器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Snipaste&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.snipaste.com/">https://www.snipaste.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">功能强大的截图软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">V2rayN&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://github.com/2dust/v2rayN">https://github.com/2dust/v2rayN&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">懂得都懂&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">QQ音乐&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://y.qq.com/">https://y.qq.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">我觉得是国内综合最好用的听歌软件&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">图拉丁吧工具箱&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.tbtool.cn/">https://www.tbtool.cn/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">集成了很多强大好用的电脑工具&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">阿里云盘&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.aliyundrive.com/">https://www.aliyundrive.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">较好用的网盘&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">百度网盘&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://pan.baidu.com/">https://pan.baidu.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">存放和下载互联网上分享的资源&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">微信输入法&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://z.weixin.qq.com/">https://z.weixin.qq.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">个人感觉是Windows目前做的最好的第三方输入法&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Bandzip&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.bandisoft.com/bandizip/">https://www.bandisoft.com/bandizip/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">功能强大并且简洁的解压缩软件&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="游戏及平台">游戏及平台&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Steam&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://store.steampowered.com/">https://store.steampowered.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">PC游戏基本全靠它&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Epic&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://store.epicgames.com/">https://store.epicgames.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用来玩e宝送的游戏&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">RockStar Game&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.rockstargames.com/">https://www.rockstargames.com/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">R星自家的游戏启动器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">EA App&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.ea.com/ea-app">https://www.ea.com/ea-app&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">EA自家的游戏启动器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">PCL2&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://afdian.net/a/LTCat">https://afdian.net/a/LTCat&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">非常好用的MC启动器&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="破解与补丁">破解与补丁&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">名称&lt;/th>
+ &lt;th style="text-align: left">官网&lt;/th>
+ &lt;th style="text-align: left">描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jetbrain破解补丁&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://3.jetbra.in/">https://3.jetbra.in/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用于Jetbrain全家桶的激活&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Adobe破解补丁&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.cybermania.ws/apps/adobe-genp/">https://www.cybermania.ws/apps/adobe-genp/&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">用于Adobe全家桶的激活&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">云萌 Windows 10+ 激活工具&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cmwtat.cloudmoe.com/cn.html">https://cmwtat.cloudmoe.com/cn.html#&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Windows10\11安全的开源激活工具&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">VMware Workstation Pro17激活码&lt;/td>
+ &lt;td style="text-align: left">4A4RR-813DK-M81A9-4U35H-06KND&lt;/td>
+ &lt;td style="text-align: left">用于激活VMware Workstation Pro17&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

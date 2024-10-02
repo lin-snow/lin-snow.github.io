@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客工坊 on L1nSn0w's Site</title><link>https://linsnow.cn/series/%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%9D%8A/</link><description>Recent content in 博客工坊 on L1nSn0w's Site</description><generator>Hugo</generator><language>zh-cn</language><copyright>© 2020-2024 L1nSn0w</copyright><lastBuildDate>Tue, 01 Aug 2023 17:38:01 +0800</lastBuildDate><atom:link href="https://linsnow.cn/series/%E5%8D%9A%E5%AE%A2%E5%B7%A5%E5%9D%8A/index.xml" rel="self" type="application/rss+xml"/><item><title>Stack主题的自定义</title><link>https://linsnow.cn/posts/bloglab/hugo-stack/modify-hugo/</link><pubDate>Tue, 01 Aug 2023 17:38:01 +0800</pubDate><guid>https://linsnow.cn/posts/bloglab/hugo-stack/modify-hugo/</guid><description>&lt;h2 id="hugo主题魔改">🍥Hugo主题魔改&lt;/h2>
+&lt;p>由于之前魔改部分写的很慢,又考虑过出个魔改好的主题直接给人们用,后来想想了还是算了,毕竟博客怎么能缺少折腾的乐趣呢,于是乎我花了点时间把魔改内容进行了一些休整,以内容呈现为核心,放弃了很多花哨的东西,加上考虑到魔改的难易程度与网页加载快慢,最后精简成少量的个人感觉比较有用的样式,并做了注释,直接使用即可完成一些个性化调整.由于本人纯小白,所以可能还有可以优化的地方,如果你有更好的方案欢迎在下方探讨交流.&lt;/p>
+&lt;h2 id="魔改风格">🍦魔改风格&lt;/h2>
+&lt;p>本文对于主题的魔改主要以圆角风格和阅读沉浸感为核心,目标是魔改出一个与本站类似的主题风格,具体使用体验可以参考目前主题.&lt;/p>
+&lt;h2 id="魔改前的准备">🍕魔改前的准备&lt;/h2>
+&lt;p>首先在博客根目录下的&lt;code>assets&lt;/code>下创建一个名为&lt;code>scss&lt;/code>的文件夹,然后在&lt;code>scss&lt;/code>文件夹里创建一个名为&lt;code>custom.scss&lt;/code>的文件,最终效果为&lt;code>~blog/assets/scss/custom.scss&lt;/code>,创建好文件后,接下来对于主题的大部分样式魔改都将写进这个custom.scss.其中有很多冗余的代码但是为了使用尽可能用少的文件防止杂乱不堪,所以只好这样子了(如果你是大佬的话请随意).&lt;/p>
+&lt;h2 id="主题整体细节调整">🎈主题整体细节调整&lt;/h2>
+&lt;p>对于这一部分的调整我认为每个打算折腾主题前可以先加上,这样子主题整体上会有较大的改变,而且可以使文章内容的展现更为舒适,因为原主题使用了比较低的对比度,个人不是很习惯.&lt;/p>
+&lt;p>页面概览:&lt;/p>
+&lt;p>&lt;img src="page.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="主页概览" 
+ 
+ />
+&lt;/p>
+&lt;p>在上文中提到的&lt;code>custom.scss&lt;/code>文件中写入以下👇内容&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// ~\blog\assets\scss\custom.scss
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 页面基本配色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nd">:root&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 全局顶部边距
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--main-top-padding&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">30&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 全局卡片圆角
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--card-border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">25&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 标签云卡片圆角
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--tag-border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 卡片间距
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--section-separation&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">40&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 全局字体大小
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--article-font-size&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.8&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 行内代码背景色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--code-background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#f8f8f8&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 行内代码前景色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--code-text-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#e96900&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 暗色模式下样式
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">&amp;amp;&lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nt">data-scheme&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;dark&amp;#34;&lt;/span>&lt;span class="o">]&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 行内代码背景色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--code-background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#ff6d1b&lt;/span>&lt;span class="mi">17&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 行内代码前景色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--code-text-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#e96900&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 暗黑模式下背景色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--body-background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#000&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 暗黑模式下卡片背景色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--card-background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">hsl&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">225&lt;/span> &lt;span class="mi">13&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="o">/&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//------------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 修复引用块内容窄页面显示问题
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">word-break&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">break-all&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">code&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">word-break&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">break-all&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//---------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 文章封面高度
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-list&lt;/span> &lt;span class="nt">article&lt;/span> &lt;span class="nc">.article-image&lt;/span> &lt;span class="nt">img&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">object-fit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">cover&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">md&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">250&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">xl&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">285&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//--------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 文章内容图片圆角阴影
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-page&lt;/span> &lt;span class="nc">.main-article&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">img&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">96&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">auto&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 文章内容引用块样式
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">blockquote&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-left&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">6&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="ni">solid&lt;/span> &lt;span class="mh">#358b9a&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="kt">f&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#3a9743&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="kt">f&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// ---------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 代码块样式修改
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.highlight&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">102&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="ni">pre&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">background-color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">padding&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">card-padding&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">position&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">relative&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">20&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin-left&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin-right&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">12&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">box-shadow&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">shadow-l1&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">&amp;amp;&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.copyCodeButton&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">opacity&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// keep Codeblocks LTR
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="o">[&lt;/span>&lt;span class="nt">dir&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;rtl&amp;#34;&lt;/span>&lt;span class="o">]&lt;/span> &lt;span class="k">&amp;amp;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">direction&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">ltr&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">pre&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">initial&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">padding&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">auto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// light模式下的代码块样式调整
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nt">data-scheme&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;light&amp;#34;&lt;/span>&lt;span class="o">]&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="nc">.highlight&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#fff9f3&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>&lt;span class="nt">data-scheme&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;light&amp;#34;&lt;/span>&lt;span class="o">]&lt;/span> &lt;span class="nc">.chroma&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#ff6f00&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#fff9f3&lt;/span>&lt;span class="n">cc&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//-------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 设置选中字体的区域背景颜色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//修改选中颜色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nd">::selection&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#fff&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#34495e&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">a&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">text-decoration&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">accent-color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">&amp;amp;&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">accent-color-darker&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">&amp;amp;&lt;/span>&lt;span class="nc">.link&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#4288b9&lt;/span>&lt;span class="n">ad&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-weight&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">600&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">padding&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">text-decoration&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">none&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">cursor&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">pointer&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">&amp;amp;&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">text-decoration&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">underline&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//-------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//文章封面高度更改
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-list&lt;/span> &lt;span class="nt">article&lt;/span> &lt;span class="nc">.article-image&lt;/span> &lt;span class="nt">img&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">150&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">object-fit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">cover&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">md&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">xl&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">305&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//---------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 全局页面布局间距调整
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.main-container&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">min-height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">vh&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">align-items&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">flex-start&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">padding&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="mi">15&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">gap&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">section-separation&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">padding-top&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">main-top-padding&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">md&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">padding&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="mi">37&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//--------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//页面三栏宽度调整
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.container&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin-left&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">auto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin-right&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">auto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.left-sidebar&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">order&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="ni">left&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">sidebar-max-width&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.right-sidebar&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">order&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="ni">right&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">sidebar-max-width&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">/// Display right sidebar when min-width: lg
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">lg&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">flex&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">&amp;amp;&lt;/span>&lt;span class="nc">.extended&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">md&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1024&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--left-sidebar-max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">25&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--right-sidebar-max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">22&lt;/span>&lt;span class="kt">%&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">lg&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1280&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--left-sidebar-max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">20&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--right-sidebar-max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">30&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">xl&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1453&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">//1536px;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">--left-sidebar-max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">15&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--right-sidebar-max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">25&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">&amp;amp;&lt;/span>&lt;span class="nc">.compact&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">md&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--left-sidebar-max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">25&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">768&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">lg&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1024&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">--left-sidebar-max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">20&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">@include&lt;/span>&lt;span class="nd"> respond&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">xl&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1280&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//-------------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//全局页面小图片样式微调
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-list--compact&lt;/span> &lt;span class="nt">article&lt;/span> &lt;span class="nc">.article-image&lt;/span> &lt;span class="nt">img&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="ni">image&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">size&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="ni">image&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">size&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">object-fit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">cover&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">17&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//----------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//固定代码块的高度
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.highlight&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">padding&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">card-padding&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">pre&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">auto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">max-height&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">20&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//--------------------------------------------------
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 修改首页搜索框样式
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.search-form.widget&lt;/span> &lt;span class="nt">input&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-size&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.5&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">padding&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">44&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">25&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">19&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="菜单栏调整为圆角">🧀菜单栏调整为圆角&lt;/h2>
+&lt;p>样式预览:&lt;/p></description></item><item><title>部署你的Hugo-Stack博客</title><link>https://linsnow.cn/posts/bloglab/hugo-stack/deploy-hugo/</link><pubDate>Tue, 01 Aug 2023 17:33:05 +0800</pubDate><guid>https://linsnow.cn/posts/bloglab/hugo-stack/deploy-hugo/</guid><description>&lt;h2 id="利用github-page和github--action部署你的hugo博客">🍕利用Github Page和Github Action部署你的Hugo博客&lt;/h2>
+&lt;h3 id="注册github">🍔注册GitHub&lt;/h3>
+&lt;p>打开&lt;code>https://github.com/&lt;/code>,(打不开的可能需要魔法,或者换个时间点打开,具体怎么操作就不细说了,懂得都懂😶),注册一个GitHub账号,如果不会注册那你还来看这篇文章干嘛.&lt;/p>
+&lt;h3 id="创建github仓库">🧀创建Github仓库&lt;/h3>
+&lt;p>为了使用&lt;code>GitHub Action&lt;/code>自动部署,加上便于管理,所以创建两个仓库,虽然一个也行.&lt;/p>
+&lt;p>1.我们先创建一个名字为&lt;code>blog&lt;/code>的仓库用于存放hugo生成的文件,打开右上角的&lt;code>+号&lt;/code>,然后选择&lt;code>New repository&lt;/code>以新建仓库&lt;/p>
+&lt;p>&lt;img src="newrepo.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>2.跟着图片里的步骤操作,先给仓库取个名字,叫做&lt;code>blog&lt;/code>(小白最好将仓库名字跟我起一样的),然后勾选&lt;code>public&lt;/code>,接着勾选&lt;code>Add a REAMME file&lt;/code>,最后点击&lt;code>Create repository&lt;/code>完成创建.&lt;/p>
+&lt;p>&lt;img src="newblog.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>3.接下来我们按照刚才那样依葫芦画瓢,再创建一个名为&lt;code>blog-file&lt;/code>的仓库&lt;/p>
+&lt;p>&lt;img src="newblogfile.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;h3 id="获取ssh-key密钥">🍦获取SSH Key密钥&lt;/h3>
+&lt;p>ssh密钥可以是我们推送文件到仓库时不需要每次都输入密码,大大的提高我们的效率.所以我们首先需要在我们的电脑生成ssh密钥&lt;/p>
+&lt;p>1.在&lt;code>git bash&lt;/code>执行以下指令,配置邮箱和用户名&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global user.email &lt;span class="s2">&amp;#34;you@example.com&amp;#34;&lt;/span> &lt;span class="c1">#you@example.com替换为你的邮箱并回车&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git config --global user.name &lt;span class="s2">&amp;#34;Your Name&amp;#34;&lt;/span> &lt;span class="c1">#Your Name替换为你的名字并回车&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="Inkedgitbashconfig.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>2.生成shh key,在&lt;code>git bash&lt;/code>中 输入以下命令&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">ssh-keygen -t rsa
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="gitbashsshkey.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>一路回车就行&lt;/p>
+&lt;p>默认会生成在如下目录&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">C:&lt;span class="se">\U&lt;/span>sers&lt;span class="se">\用&lt;/span>户名&lt;span class="se">\.&lt;/span>ssh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="ssh.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>用记事本打开生成目录下&lt;code>id_rsa.pub&lt;/code>,其中的内容即为公钥,&lt;code>id_rsa&lt;/code>即为私钥.这两个待会要用到.&lt;/p>
+&lt;p>3.将将公钥配置到&lt;code>GitHub&lt;/code>账户中,先打开设置,即&lt;code>Settings&lt;/code>&lt;/p>
+&lt;p>&lt;img src="setting.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>进入&lt;code>SSH and GPG key&lt;/code>配置项里,点击&lt;code>SSH keys&lt;/code>下的&lt;code>New SHH key&lt;/code>进行添加&lt;/p></description></item><item><title>带着Stack主题入坑Hugo</title><link>https://linsnow.cn/posts/bloglab/hugo-stack/join-hugo-and-stack/</link><pubDate>Sun, 30 Jul 2023 17:33:05 +0800</pubDate><guid>https://linsnow.cn/posts/bloglab/hugo-stack/join-hugo-and-stack/</guid><description>&lt;h2 id="缘起">&lt;em>🙃缘起:&lt;/em>&lt;/h2>
+&lt;p>*进坑Hugo这么久了,是时候也开一篇记录一下建站过程了.*本教程是面向小白而写的,所以可能有些东西写的很罗嗦,所以大佬手下留情.本文稍微有点长,所以请保持耐心.😅&lt;/p>
+&lt;p>&lt;em>写这篇的一个主要原因有三:&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>&lt;em>记录并回顾此站从新建文件夹到诞生的主要过程&lt;/em>&lt;/li>
+&lt;li>&lt;em>帮助一些小白入坑hugo&lt;/em>&lt;/li>
+&lt;li>&lt;em>使文章数加一(doge&lt;/em>&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="声明">&lt;em>📢声明:&lt;/em>&lt;/h2>
+&lt;p>&lt;em>由于本人人菜瘾大,技术十分之有限,写的代码非常之烂,都是本着能用就行写的,所以请大佬手下留情.&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="本篇教程编写环境">&lt;em>📑本篇教程编写环境:&lt;/em>&lt;/h2>
+&lt;p>&lt;em>操作系统:	&lt;code>Windows 11&lt;/code> 专业版 22H2&lt;/em>&lt;/p>
+&lt;p>&lt;em>Microsoft Edge版本 107.0.1418.62 (正式版本) (64 位)&lt;/em>&lt;/p>
+&lt;p>&lt;em>Markdown编辑器: Typora&lt;/em>&lt;/p>
+&lt;p>&lt;em>博客配置编辑器: VS Code&lt;/em>&lt;/p>
+&lt;p>&lt;em>命令行工具:Git、Terminal&lt;/em>&lt;/p>
+&lt;p>Hugo版本:&lt;code>hugo v0.123.8 extended windows/amd64&lt;/code>&lt;/p>
+&lt;p>Hugo主题:&lt;code>hugo-theme-stack&lt;/code>&lt;/p>
+&lt;p>&lt;em>使用的主要路径: 桌面、D盘&lt;/em>&lt;/p>
+&lt;p>&lt;em>基本上就这些了&amp;hellip;.&lt;/em>&lt;/p>
+&lt;h2 id="hugo环境搭建">&lt;em>🧀Hugo环境搭建&lt;/em>&lt;/h2>
+&lt;p>&lt;em>使用hugo之前,必须配置hugo环境,这跟hexo要安装node和npm差不多.&lt;/em> 下载的操作建议按照先安装&lt;code>VScode&lt;/code>再安装&lt;code>GIt&lt;/code>的顺序操作,因为后面的Git有个设置选项需要先有VScode编辑器&lt;/p>
+&lt;h3 id="安装vscode">🎈&lt;em>安装VScode&lt;/em>&lt;/h3>
+&lt;p>1.&lt;em>从官网获取VScode的安装包&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>VScode官网: &lt;a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;em>&lt;img src="downvscode.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/em>&lt;/p>
+&lt;p>2.&lt;em>打开安装包并安装&lt;/em>,选择&lt;code>I accept the agreement&lt;/code>,然后选择&lt;code>Next&lt;/code>&lt;/p>
+&lt;p>&lt;img src="vscode1.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>3.&lt;code>全部&lt;/code>打勾勾后选择下一步,这个很重要!&lt;/p>
+&lt;p>&lt;img src="vscode2.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>4.选择&lt;code>install&lt;/code>开始安装,等待安装完成后选择&lt;code>Finish&lt;/code>&lt;/p>
+&lt;p>&lt;img src="vscode3.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>5.至此,VScode就安装完成了,接下来安装&lt;code>Git&lt;/code>&lt;/p>
+&lt;h3 id="安装git">🎈&lt;em>安装Git&lt;/em>&lt;/h3>
+&lt;p>1.从官网下载Git的安装包&lt;/p>
+&lt;blockquote>
+&lt;p>Git官网下载地址: &lt;a href="https://git-scm.com/download/win">https://git-scm.com/download/win&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="downgit.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>2.打开下载好的安装包进行安装&lt;/p>
+&lt;p>&lt;img src="git1.png" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>3.直接默认安装路径然后选中下一步&lt;/p></description></item></channel></rss>
