@@ -353,138 +353,138 @@
  />
 &lt;/p>
 &lt;p>我的配置文件:&lt;/p>
-&lt;pre tabindex="0">&lt;code>{
- &amp;#34;name&amp;#34;: &amp;#34;AnuPpuccin&amp;#34;,
- &amp;#34;version&amp;#34;: &amp;#34;1.4.4&amp;#34;,
- &amp;#34;minAppVersion&amp;#34;: &amp;#34;0.16.0&amp;#34;,
- &amp;#34;author&amp;#34;: &amp;#34;Anubis&amp;#34;,
- &amp;#34;authorUrl&amp;#34;: &amp;#34;https://github.com/AnubisNekhet&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-toggle-preview&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anuppuccin-theme-light&amp;#34;: &amp;#34;ctp-rosepine-light&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anuppuccin-light-theme-accents&amp;#34;: &amp;#34;ctp-accent-light-rosewater&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anuppuccin-theme-accents&amp;#34;: &amp;#34;ctp-accent-yellow&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-active-line&amp;#34;: &amp;#34;anp-current-line-border&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-color-transition-toggle&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-autohide-titlebar&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-cursor&amp;#34;: &amp;#34;pointer&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-decoration-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-background-image-toggle&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-colorful-frame&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-collapse-folders&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-file-icons&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-floating-header&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-custom-vault-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-pdf-blend-toggle-dark&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-pdf-blend-toggle-light&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-status-bar-select&amp;#34;: &amp;#34;anp-fixed-status-bar&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-alt-tab-style&amp;#34;: &amp;#34;anp-safari-tab-toggle&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-depth-tab-text-invert&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-layout-select&amp;#34;: &amp;#34;none&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-bg-fix&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-hide-borders&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-rainbow-file-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-alt-rainbow-style&amp;#34;: &amp;#34;anp-simple-rainbow-color-toggle&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-light&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-simple-rainbow-icon-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-rainbow-subfolder-color-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-file-label-align&amp;#34;: &amp;#34;0&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-file-icon-align&amp;#34;: &amp;#34;0&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-simple-rainbow-icon-folder-toggle&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-callout-select&amp;#34;: &amp;#34;none&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-callout-color-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-custom-checkboxes&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-codeblock-numbers&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-list-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-table-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-header-color-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-canvas-dark-bg&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-simple-rainbow-indentation-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-simple-rainbow-collapse-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-disable-newtab-align&amp;#34;: true,
- &amp;#34;things-style@@mobile-black-background&amp;#34;: false,
- &amp;#34;things-style@@floating-button-off&amp;#34;: false,
- &amp;#34;things-style@@default-font-color&amp;#34;: false,
- &amp;#34;things-style@@no-kanban-styles&amp;#34;: false,
- &amp;#34;things-style@@fancy-highlight&amp;#34;: false,
- &amp;#34;obsidian-prism-theme@@color-schemes-lt&amp;#34;: &amp;#34;pt-color-scheme-pistachio-lt&amp;#34;,
- &amp;#34;obsidian-prism-theme@@accent-style-lt&amp;#34;: &amp;#34;pt-accent-style-borderandfilled-lt&amp;#34;,
- &amp;#34;obsidian-prism-theme@@light-accent-color-preset&amp;#34;: &amp;#34;pt-accent-color-custom-lt&amp;#34;,
- &amp;#34;obsidian-prism-theme@@pt-icons-accent&amp;#34;: true,
- &amp;#34;obsidian-prism-theme@@pt-fade-inactive-tabs&amp;#34;: false,
- &amp;#34;obsidian-prism-theme@@pt-disable-blur&amp;#34;: false,
- &amp;#34;obsidian-prism-theme@@pt-disable-callout-styling&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-speech-bubble&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-table-auto&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-table-width&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@bold-weight&amp;#34;: &amp;#34;bolder&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-header-margin-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-header-divider-color-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-card-shadows&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-card-layout-actions&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-card-layout-filebrowser&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-safari-tab-animated&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anuppuccin-theme-dark&amp;#34;: &amp;#34;ctp-frappe&amp;#34;,
- &amp;#34;anuppuccin-theme-settings@@anp-kanban-lanes&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-button-metadata-toggle&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-print&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-dark&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anp-border-radius&amp;#34;: 20,
- &amp;#34;sanctum@@light-mode-contrast-mode&amp;#34;: &amp;#34;sanctum-default-light&amp;#34;,
- &amp;#34;light-and-bright-theme@@light-theme-settings&amp;#34;: &amp;#34;theme-default&amp;#34;,
- &amp;#34;light-and-bright-theme@@dark-theme-settings&amp;#34;: &amp;#34;dark-theme-default&amp;#34;,
- &amp;#34;Appearance-light@@accent-light&amp;#34;: &amp;#34;#D7827E&amp;#34;,
- &amp;#34;Appearance-light@@accent-color-override-light&amp;#34;: true,
- &amp;#34;Appearance-light@@mod-left-split-background-select-light&amp;#34;: &amp;#34;mod-left-split-background-CSS-light&amp;#34;,
- &amp;#34;Appearance-light@@background-mod-left-CSS-light&amp;#34;: &amp;#34;transparent&amp;#34;,
- &amp;#34;Appearance-light@@background-mod-left-CSS-backdrop-filter-light&amp;#34;: &amp;#34;blur(0px)&amp;#34;,
- &amp;#34;Appearance-light@@mod-right-split-background-select-light&amp;#34;: &amp;#34;mod-right-split-background-CSS-light&amp;#34;,
- &amp;#34;Appearance-light@@background-mod-right-CSS-light&amp;#34;: &amp;#34;transparent&amp;#34;,
- &amp;#34;Appearance-light@@background-mod-right-CSS-backdrop-filter-light&amp;#34;: &amp;#34;blur(0px)&amp;#34;,
- &amp;#34;Appearance-light@@mod-root-split-background-select-light&amp;#34;: &amp;#34;mod-root-split-background-CSS-light&amp;#34;,
- &amp;#34;Appearance-light@@background-mod-root-CSS-light&amp;#34;: &amp;#34;blur(0px)&amp;#34;,
- &amp;#34;Appearance-light@@background-mod-root-CSS-backdrop-filter-light&amp;#34;: &amp;#34;blur(0px)&amp;#34;,
- &amp;#34;Appearance-light@@background-underlying-select-light&amp;#34;: &amp;#34;background-underlying-CSS-light&amp;#34;,
- &amp;#34;Appearance-light@@background-underlying-CSS-light&amp;#34;: &amp;#34;#ffffff url(\&amp;#34;https://www.transparenttextures.com/patterns/cream-paper.png\&amp;#34;)&amp;#34;,
- &amp;#34;Appearance-light@@background-underlying-CSS-blend-mode-light&amp;#34;: &amp;#34;normal&amp;#34;,
- &amp;#34;Appearance-light@@card-border-radius-light&amp;#34;: &amp;#34;0px&amp;#34;,
- &amp;#34;Appearance-light@@card-shadow-light&amp;#34;: &amp;#34;none&amp;#34;,
- &amp;#34;Appearance-light@@border-radius-activated-tab-header-light&amp;#34;: &amp;#34;0px&amp;#34;,
- &amp;#34;Appearance-light@@background-activated-tab-header-light&amp;#34;: &amp;#34;transparent&amp;#34;,
- &amp;#34;Appearance-light@@shadow-activated-tab-header-light&amp;#34;: &amp;#34;0px 2px 0px var(--color-accent)&amp;#34;,
- &amp;#34;Appearance-light@@workspace-divider-transparent-light&amp;#34;: true,
- &amp;#34;Appearance-dark@@card-layout-open-dark&amp;#34;: true,
- &amp;#34;Appearance-dark@@mod-left-split-background-select-dark&amp;#34;: &amp;#34;mod-left-split-background-transparent-dark&amp;#34;,
- &amp;#34;Appearance-dark@@mod-right-split-background-select-dark&amp;#34;: &amp;#34;mod-right-split-background-transparent-dark&amp;#34;,
- &amp;#34;Appearance-dark@@mod-root-split-background-select-dark&amp;#34;: &amp;#34;mod-root-split-background-CSS-dark&amp;#34;,
- &amp;#34;Appearance-dark@@background-mod-root-CSS-dark&amp;#34;: &amp;#34;rgba(0,0,0,0.25)&amp;#34;,
- &amp;#34;Appearance-dark@@background-underlying-select-dark&amp;#34;: &amp;#34;background-underlying-defalut-dark&amp;#34;,
- &amp;#34;Appearance-dark@@Active-states-file-explorer-select-dark&amp;#34;: &amp;#34;activated-file-tab-style-dark&amp;#34;,
- &amp;#34;Appearance-light@@background-tertiary@@light&amp;#34;: &amp;#34;#F2E9E1&amp;#34;,
- &amp;#34;Appearance-light@@background-primary@@light&amp;#34;: &amp;#34;#FFFAF3&amp;#34;,
- &amp;#34;Appearance-light@@background-secondary@@light&amp;#34;: &amp;#34;#FAF4ED&amp;#34;,
- &amp;#34;Appearance-light@@text-normal@@light&amp;#34;: &amp;#34;#575279&amp;#34;,
- &amp;#34;Appearance-light@@text-muted@@light&amp;#34;: &amp;#34;#797593&amp;#34;,
- &amp;#34;Appearance-light@@text-faint@@light&amp;#34;: &amp;#34;#9893A5&amp;#34;,
- &amp;#34;Appearance-dark@@theme-dark-style-select&amp;#34;: &amp;#34;theme-dark-background-default&amp;#34;,
- &amp;#34;Appearance-dark@@accent-color-override-dark&amp;#34;: false,
- &amp;#34;Components@@outline-enhanced&amp;#34;: true,
- &amp;#34;Components@@CTA-BTN-enable&amp;#34;: true,
- &amp;#34;Components@@file-names-untrim&amp;#34;: false,
- &amp;#34;Components@@folder-font-bold&amp;#34;: true,
- &amp;#34;Components@@vault-name-display-select&amp;#34;: &amp;#34;vault-name-default&amp;#34;,
- &amp;#34;Components@@colorful-folder&amp;#34;: true,
- &amp;#34;Components@@new-tab-btn-select&amp;#34;: &amp;#34;new-tab-btn-default&amp;#34;,
- &amp;#34;Plugin@@Projects-bg-color&amp;#34;: &amp;#34;Projects-bg-color-default&amp;#34;,
- &amp;#34;Editor@@line-hover-indicator&amp;#34;: false,
- &amp;#34;Appearance-dark@@card-highlight-dark&amp;#34;: false,
- &amp;#34;anuppuccin-theme-settings@@anuppuccin-accent-toggle&amp;#34;: true,
- &amp;#34;anuppuccin-theme-settings@@anp-card-radius&amp;#34;: 20,
- &amp;#34;anuppuccin-theme-settings@@anp-border-padding&amp;#34;: 20
-}
-&lt;/code>&lt;/pre>&lt;h2 id="2023年度游戏--the-finals">2023年度游戏&amp;ndash;The Finals&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">&amp;#34;name&amp;#34;:&lt;/span> &lt;span class="err">&amp;#34;AnuPpuccin&amp;#34;,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">&amp;#34;version&amp;#34;:&lt;/span> &lt;span class="err">&amp;#34;1.4.4&amp;#34;,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">&amp;#34;minAppVersion&amp;#34;:&lt;/span> &lt;span class="err">&amp;#34;0.16.0&amp;#34;,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">&amp;#34;author&amp;#34;:&lt;/span> &lt;span class="err">&amp;#34;Anubis&amp;#34;,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">&amp;#34;authorUrl&amp;#34;:&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">github&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">com&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">AnubisNekhet&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-toggle-preview&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anuppuccin-theme-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">ctp-rosepine-light&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anuppuccin-light-theme-accents&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">ctp-accent-light-rosewater&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anuppuccin-theme-accents&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">ctp-accent-yellow&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-active-line&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">anp-current-line-border&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-color-transition-toggle&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-autohide-titlebar&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-cursor&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">pointer&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-decoration-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-background-image-toggle&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-colorful-frame&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-colorful-frame-icon-toggle-light&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-colorful-frame-icon-toggle-dark&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-collapse-folders&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-file-icons&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-floating-header&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-custom-vault-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-pdf-blend-toggle-dark&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-pdf-blend-toggle-light&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-status-bar-select&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">anp-fixed-status-bar&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-alt-tab-style&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">anp-safari-tab-toggle&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-depth-tab-text-invert&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-layout-select&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">none&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-bg-fix&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-hide-borders&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-rainbow-file-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-alt-rainbow-style&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">anp-simple-rainbow-color-toggle&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-full-rainbow-text-color-toggle-light&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-simple-rainbow-title-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-simple-rainbow-icon-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-rainbow-subfolder-color-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-file-label-align&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-file-icon-align&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-simple-rainbow-icon-folder-toggle&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-callout-select&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">none&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-callout-color-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-custom-checkboxes&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-codeblock-numbers&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-list-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-table-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-header-color-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-canvas-dark-bg&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-simple-rainbow-indentation-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-simple-rainbow-collapse-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-disable-newtab-align&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">things-style&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">mobile-black-background&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">things-style&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">floating-button-off&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">things-style&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="kc">default&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">font&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">things-style&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">no-kanban-styles&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">things-style&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">fancy-highlight&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">obsidian-prism-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">schemes-lt&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">pt-color-scheme-pistachio-lt&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">obsidian-prism-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">accent-style-lt&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">pt-accent-style-borderandfilled-lt&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">obsidian-prism-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light-accent-color-preset&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">pt-accent-color-custom-lt&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">obsidian-prism-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">pt-icons-accent&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">obsidian-prism-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">pt-fade-inactive-tabs&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">obsidian-prism-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">pt-disable-blur&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">obsidian-prism-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">pt-disable-callout-styling&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-speech-bubble&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-table-auto&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-table-width&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="kc">bold&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">weight&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">bolder&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-header-margin-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-header-divider-color-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-card-shadows&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-card-layout-actions&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-card-layout-filebrowser&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-safari-tab-animated&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anuppuccin-theme-dark&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">ctp-frappe&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-kanban-lanes&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-button-metadata-toggle&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-print&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-full-rainbow-text-color-toggle-dark&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-border-radius&lt;/span>&lt;span class="s2">&amp;#34;: 20,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">sanctum&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light-mode-contrast-mode&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">sanctum-default-light&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">light-and-bright-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light-theme-settings&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">theme-default&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">light-and-bright-theme&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">dark-theme-settings&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">dark-theme-default&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">accent-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mh">#D7827E&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">accent-color-override-light&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">mod-left-split-background-select-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">mod-left-split-background-CSS-light&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">mod-left-CSS-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">transparent&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">mod-left-CSS-backdrop-filter-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="nb">blur&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">mod-right-split-background-select-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">mod-right-split-background-CSS-light&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">mod-right-CSS-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">transparent&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">mod-right-CSS-backdrop-filter-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="nb">blur&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">mod-root-split-background-select-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">mod-root-split-background-CSS-light&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">mod-root-CSS-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="nb">blur&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">mod-root-CSS-backdrop-filter-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="nb">blur&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">underlying-select-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">underlying-CSS-light&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">underlying-CSS-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mh">#ffffff&lt;/span> &lt;span class="nb">url&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sx">\&amp;#34;https://www.transparenttextures.com/patterns/cream-paper.png\&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">underlying-CSS-blend-mode-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">normal&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">card-border-radius-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">card-shadow-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">none&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">border-radius&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">activated-tab-header-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">activated-tab-header-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="kc">transparent&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">shadow-activated-tab-header-light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">accent&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">workspace-divider-transparent-light&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">card-layout-open-dark&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">mod-left-split-background-select-dark&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">mod-left-split-background-transparent-dark&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">mod-right-split-background-select-dark&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">mod-right-split-background-transparent-dark&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">mod-root-split-background-select-dark&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">mod-root-split-background-CSS-dark&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">mod-root-CSS-dark&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="nb">rgba&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mf">0.25&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">underlying-select-dark&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">underlying-defalut-dark&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">Active-states-file-explorer-select-dark&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">activated-file-tab-style-dark&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">tertiary&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mh">#F2E9E1&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">primary&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mh">#FFFAF3&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">secondary&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mh">#FAF4ED&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="kc">text&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">normal&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mh">#575279&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="kc">text&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">muted&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mh">#797593&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-light&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="kc">text&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">faint&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">light&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="mh">#9893A5&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">theme-dark-style-select&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">theme-dark-background-default&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">accent-color-override-dark&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Components&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="k">outline&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">enhanced&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Components&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">CTA-BTN-enable&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Components&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">file-names-untrim&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Components&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">folder-font-bold&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Components&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">vault-name-display-select&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">vault-name-default&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Components&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">colorful-folder&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Components&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">new-tab-btn-select&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">new-tab-btn-default&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Plugin&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">Projects-bg-color&lt;/span>&lt;span class="s2">&amp;#34;: &amp;#34;&lt;/span>&lt;span class="n">Projects-bg-color-default&lt;/span>&lt;span class="s2">&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Editor&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">line-hover-indicator&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">Appearance-dark&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">card-highlight-dark&lt;/span>&lt;span class="s2">&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anuppuccin-accent-toggle&lt;/span>&lt;span class="s2">&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-card-radius&lt;/span>&lt;span class="s2">&amp;#34;: 20,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&lt;/span>&lt;span class="n">anuppuccin-theme-settings&lt;/span>&lt;span class="o">@@&lt;/span>&lt;span class="n">anp-border-padding&lt;/span>&lt;span class="err">&amp;#34;&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">20&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="2023年度游戏--the-finals">2023年度游戏&amp;ndash;The Finals&lt;/h2>
 &lt;p>听说喜欢玩《The Finals》的男孩都是&lt;code>“TFBoys”&lt;/code>,😂上一次玩得这么爽还是在上一次，狠狠安利一波The Finals。尊嘟很好玩。&lt;/p></description></item><item><title>工欲善其事</title><link>https://linsnow.cn/posts/objectnotes/softwares/</link><pubDate>Sat, 09 Dec 2023 18:56:24 +0800</pubDate><guid>https://linsnow.cn/posts/objectnotes/softwares/</guid><description>&lt;h2 id="先听我狡辩">🤣先听我狡辩&lt;/h2>
 &lt;p>这个软件清单记录了软件的名称，官网和我&lt;code>主观&lt;/code>的简短描述。把电脑使用的软件列出来，方便以后电脑重装后安装，而且记录下来的软件官网可以防止下载到不安全的软件。这张清单可能会随着后续我电脑使用软件的情况进行更新.&lt;/p>
 &lt;h2 id="系统">系统&lt;/h2>
@@ -1468,4 +1468,57 @@
  alt="No description" 
  
  />
-&lt;/p></description></item></channel></rss>
+&lt;/p></description></item><item><title>我的AndroidTV折腾小记</title><link>https://linsnow.cn/posts/objectnotes/android-tv/</link><pubDate>Fri, 22 Jul 2022 01:20:08 -0700</pubDate><guid>https://linsnow.cn/posts/objectnotes/android-tv/</guid><description>&lt;h2 id="起因">起因&lt;/h2>
+&lt;p>我向往常一样逛着小破站，虽然我不是什么玩安卓的专业人士，但是有了iOS越狱的基础，一台破安卓手机和Windows11上推出的WSA,我开始的了解了一些安卓领域的东西，大数据真的厉害，刷着刷着就给我推送了小米盒子刷&lt;code>AndroidTV&lt;/code>的视频，没想到电视盒子也能这么搞，这瞬间让我想起了被小米盒子各种广告弹窗支配的恐惧，这下子算是有救了，二话不说，直接开干。🤣&lt;/p>
+&lt;h2 id="什么是androidtv">🤔什么是AndroidTV?&lt;/h2>
+&lt;blockquote>
+&lt;p>AndroidTV就是Google开发的智能电视平台&lt;/p>
+&lt;/blockquote>
+&lt;p>整个系统占用小，没有各种广告，动画和ui都很好看而且内置谷歌服务，反正大概就是这么个东西，一般要使用这个系统都是买国际版的一些电视盒子&lt;/p>
+&lt;h2 id="开整">😅开整&lt;/h2>
+&lt;p>打开电视，初略的了解一下电视盒子的的型号，我的是MDZ-16-AA,就4g的内存，才安装了两个软件，就天天提示清理垃圾，安装爱奇艺或者腾讯视频使用起来特别卡，估计也就十几帧吧，usb口少的可怜，就给了一个&amp;hellip;刷机的过程和安卓手机差不多，也是先刷twrp，在用twrp刷别的系统，为了偷懒，我按照网上的简单方法，就是先给盒子降级，然后再root,再刷入twrp，然后我就翻车了，本来以为电视盒子成砖了，网上查了查，没想到能救砖，可谓是天助我也，仔细看看了方法，也不是很难就是比较麻烦。具体过程就不细说了，网上很多，以下就记录下我遇到的坑&amp;hellip;&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>没有公对公的usb线，但是又不想等快递，所以就自制了一条，说真的，不作就不会死，我拿自制的线连到了笔记本上的两个usb口，结果笔记本烧坏了一个usb口，心疼死我了，害，看来这条线估计是不能用吧，只能乖乖买一条了&lt;/li>
+&lt;li>一开始不知道小米盒子连接电脑和其他usb设备必须开启adb调试模式，结果进入了恢复模式后twrp自动把内置系统给删了，导致开机只能进twrp，然后又用不了遥控器和鼠标，进入了死胡同，导致了严重后果&lt;/li>
+&lt;li>用遥控器进入自动刷机必须要在小米盒子里先把遥控器的连接删除才行，否则别想用遥控器进入自动刷机，因为这一步我搞了半天，后来才在网络上看到解决方案，而且不同型号进入自动刷机的按钮不一样，坑的一批&lt;/li>
+&lt;li>网络上的安卓资源很多都不能用了，各种助手和root工具也失效了，资源十分冗杂，真的是烦，光是找各种资源就花了好几个小时&lt;/li>
+&lt;li>救砖要把小米盒子拆开，这东西根本不可能用手才开，用工具拆就花了差不多一个半小时，手都废了&lt;/li>
+&lt;li>拆开后要连接电脑必须要在插电瞬间短接2，3触点，反复尝试，直到连上电脑，使用一个软件强制刷入系统，但是会各种报错，试了很多遍也不行，才4%就报错，最好查了很多资料才看到了一条有关的内容，原因是这个软件在amd上运行有问题，但是我的intel迷你小主机装的是macos，于是乎要救盒子我只能把小主机装回Windows，最后才成功解决了报错&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;h2 id="一系列折腾之后的效果">😍一系列折腾之后的效果&lt;/h2>
+&lt;blockquote>
+&lt;p>安卓版本：Android5.1.1&lt;/p>
+&lt;p>固件自带supersu&lt;/p>
+&lt;p>支持Google Play Store以及YouTube&lt;/p>
+&lt;p>等等&amp;hellip;&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="让我康康">😅让我康康&lt;/h3>
+&lt;p>&lt;img src="miboxatv.jpg" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;p>拍的不好见谅，简单的看一下就行&lt;/p>
+&lt;h3 id="盒子刷机后的体验">🤔盒子刷机后的体验&lt;/h3>
+&lt;p>总体来说很不错，至少是没广告和各种内存不足了，但是看在盒子里装clash看YouTube还是有点吃力，原因是盒子算力不够，只能勉勉强强，推荐是用软路由或者路由器直接爱国上网&lt;/p>
+&lt;h2 id="更上一层楼">😅更上一层楼&lt;/h2>
+&lt;p>在折腾了一系列小米盒子后，再一次凭借大数据，我刷到了一个古老的项目：&lt;code>Android TV X86&lt;/code>,真是一环扣一环，刚好我前面的迷你小主机刷了windows，反正主要是用我的笔记本，不妨把它也刷成AndroidTV,也正好能解决爱国上网慢的问题，加上硬盘超大容量，捡的这台垃圾也算是能好好利用一下了，i3-4360的远古cpu跑个Android是可以秒杀现在大部分普通电视盒子的，说干就干&amp;hellip;&lt;/p>
+&lt;h2 id="先让我康康">😍先让我康康&lt;/h2>
+&lt;p>&lt;img src="atv.jpg" 
+ loading="lazy" 
+ decoding="async" 
+ alt="No description" 
+ 
+ />
+&lt;/p>
+&lt;h2 id="so什么是android-tv-x86">🤔So,什么是Android TV X86&lt;/h2>
+&lt;blockquote>
+&lt;p>Android TV x86 &lt;strong>由开发者 AmznUser444 Dev 创建&lt;/strong>。 因为 ROM 的根源是 Android-x86 项目。 最初的版本基于 Android 9 Pie，其系统要求只需要具有 1.2 GHz 双核 64 位功能的处理器，以及 64MB 视频内存的典型 Intel / NVIDIA / AMD GPU。&lt;/p>
+&lt;/blockquote>
+&lt;p>简单来说就是能让你的电脑跑Android TV的一个系统&lt;/p>
+&lt;h2 id="寻觅所需资源">🥱寻觅所需资源&lt;/h2>
+&lt;p>这个东西好像只有国外两个团队再制作，为了获取到最新版，我Google了一下，并且加入这两个团队的&lt;code>discord&lt;/code>，不过其中有一个好像已经没有开发了，版本停留在了&lt;code>Android 9&lt;/code>只剩下另一个还在缓慢开发，目前最新的AndroidTV 版本是&lt;code>Android11&lt;/code>，不过作者镜像下载要收费，大概是10欧元左右吧，反正我这种穷屌丝是真的负担不起，于是只能下载它的免费版本，免费的是&lt;code>Android 9&lt;/code>，安慰自己说：反正也够用了。&lt;/p></description></item></channel></rss>
