@@ -9,46 +9,46 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">配件类别&lt;/th>
- &lt;th style="text-align: left">具体型号&lt;/th>
+ &lt;th>配件类别&lt;/th>
+ &lt;th>具体型号&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">主板&lt;/td>
- &lt;td style="text-align: left">H81(联想M73 Tiny）&lt;/td>
+ &lt;td>主板&lt;/td>
+ &lt;td>H81(联想M73 Tiny）&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">CPU&lt;/td>
- &lt;td style="text-align: left">Intel i3-4360标压&lt;/td>
+ &lt;td>CPU&lt;/td>
+ &lt;td>Intel i3-4360标压&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">内存条&lt;/td>
- &lt;td style="text-align: left">杂牌ddr3 1333MHz 4G*1&lt;/td>
+ &lt;td>内存条&lt;/td>
+ &lt;td>杂牌ddr3 1333MHz 4G*1&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">硬盘&lt;/td>
- &lt;td style="text-align: left">杂牌120g固态硬盘&lt;/td>
+ &lt;td>硬盘&lt;/td>
+ &lt;td>杂牌120g固态硬盘&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">电源&lt;/td>
- &lt;td style="text-align: left">联系原装90w电源&lt;/td>
+ &lt;td>电源&lt;/td>
+ &lt;td>联系原装90w电源&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">转接头&lt;/td>
- &lt;td style="text-align: left">dp转hdmi转接头&lt;/td>
+ &lt;td>转接头&lt;/td>
+ &lt;td>dp转hdmi转接头&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">视频输出线&lt;/td>
- &lt;td style="text-align: left">家里闲置的HDMI转HDMI线&lt;/td>
+ &lt;td>视频输出线&lt;/td>
+ &lt;td>家里闲置的HDMI转HDMI线&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">网卡&lt;/td>
- &lt;td style="text-align: left">博通bcm94352hmb&lt;/td>
+ &lt;td>网卡&lt;/td>
+ &lt;td>博通bcm94352hmb&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">天线&lt;/td>
- &lt;td style="text-align: left">一代的IPEX内置天线&lt;/td>
+ &lt;td>天线&lt;/td>
+ &lt;td>一代的IPEX内置天线&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
