@@ -353,8 +353,7 @@
 &lt;li>&lt;em>记录并回顾此站从新建文件夹到诞生的主要过程&lt;/em>&lt;/li>
 &lt;li>&lt;em>帮助一些小白入坑hugo&lt;/em>&lt;/li>
 &lt;li>&lt;em>使文章数加一(doge&lt;/em>&lt;/li>
-&lt;/ol>
-&lt;/blockquote>
+&lt;/ol>&lt;/blockquote>
 &lt;hr>
 &lt;h2 id="声明">&lt;em>📢声明:&lt;/em>&lt;/h2>
 &lt;p>&lt;em>由于本人人菜瘾大,技术十分之有限,写的代码非常之烂,都是本着能用就行写的,所以请大佬手下留情.&lt;/em>&lt;/p>
@@ -374,8 +373,7 @@
 &lt;h3 id="安装vscode">🎈&lt;em>安装VScode&lt;/em>&lt;/h3>
 &lt;p>1.&lt;em>从官网获取VScode的安装包&lt;/em>&lt;/p>
 &lt;blockquote>
-&lt;p>VScode官网: &lt;a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;p>VScode官网: &lt;a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>&lt;em>&lt;img src="downvscode.png" 
  loading="lazy" 
  decoding="async" 
@@ -411,8 +409,7 @@
 &lt;h3 id="安装git">🎈&lt;em>安装Git&lt;/em>&lt;/h3>
 &lt;p>1.从官网下载Git的安装包&lt;/p>
 &lt;blockquote>
-&lt;p>Git官网下载地址: &lt;a href="https://git-scm.com/download/win">https://git-scm.com/download/win&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;p>Git官网下载地址: &lt;a href="https://git-scm.com/download/win">https://git-scm.com/download/win&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>&lt;img src="downgit.webp" 
  loading="lazy" 
  decoding="async" 
@@ -427,5 +424,4 @@
  alt="No description" 
  
  />
-&lt;/p>
-&lt;p>3.直接默认安装路径然后选中下一步&lt;/p></description></item></channel></rss>
+&lt;/p></description></item></channel></rss>
