@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on L1nSn0wの小窝</title><link>https://linsnow.cn/posts/</link><description>Recent content in Posts on L1nSn0wの小窝</description><generator>Hugo</generator><language>zh-cn</language><copyright>© 2020-2025 L1nSn0w</copyright><lastBuildDate>Wed, 01 Jan 2025 13:10:04 +0800</lastBuildDate><atom:link href="https://linsnow.cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年终总结</title><link>https://linsnow.cn/posts/dailylife/2024_summary/</link><pubDate>Wed, 01 Jan 2025 13:10:04 +0800</pubDate><guid>https://linsnow.cn/posts/dailylife/2024_summary/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on L1nSn0wの小窝</title><link>https://linsnow.cn/posts/</link><description>Recent content in Posts on L1nSn0wの小窝</description><generator>Hugo</generator><language>zh-cn</language><copyright>© 2020-2025 L1nSn0w</copyright><lastBuildDate>Mon, 10 Feb 2025 15:07:26 +0800</lastBuildDate><atom:link href="https://linsnow.cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>我的赛博生活03</title><link>https://linsnow.cn/posts/cyberlife/03/</link><pubDate>Mon, 10 Feb 2025 15:07:26 +0800</pubDate><guid>https://linsnow.cn/posts/cyberlife/03/</guid><description>&lt;p>这段时间又折腾了些新玩意，&lt;del>又有素材可以水啦&lt;/del>。欢迎来到&lt;strong>L1nSn0wの二进制生活&lt;/strong>！😁&lt;/p>
+&lt;hr>
+&lt;h2 id="博客配图心得">📷博客配图心得&lt;/h2>
+&lt;p>评论区经常有小伙伴问我博客的配图是怎么做的，所以今天就分享一些我的配图小技巧。对于我来说，绝大部分图片都来自&lt;strong>手机拍摄与屏幕截图&lt;/strong>，所以当我需要拍一些图片时，我一般都是直接打开手机的第三方软件进行拍摄，原因是使用第三方软件拍摄对比iOS的原相机更方便，大部分软件都能提供&lt;strong>丰富的滤镜&lt;/strong>，不管是拍摄物品还是景色，基本上都能够找到心仪的滤镜（或者“胶卷”），对于我这种&lt;strong>又懒又不会调色&lt;/strong>的纯小白算是非常实用了，平时写博客的&lt;strong>时间非常少&lt;/strong>，自然不能在图片上花费过多的时间，&lt;strong>效率至上&lt;/strong>！&lt;/p>
+&lt;p>当遇到需要&lt;strong>截屏&lt;/strong>的场景时，这种情况也很容易处理，最简单当然是直接使用顺手的截图工具进行截图。不过我一般是截图完之后会&lt;strong>给图片套个壳&lt;/strong>，个人认为套上壳之后看起来会更精致些。这里的套壳当然也是借助网站来解决，我个人用得最多最推荐是&lt;a href="https://postspark.app/">&lt;strong>postspark&lt;/strong>&lt;/a> ,这个网站&lt;strong>功能强大丰富&lt;/strong>，而且也是&lt;strong>免费&lt;/strong>的。&lt;/p>
+&lt;p>最后列一些我常用的手机拍摄软件：&lt;/p>
+&lt;ul>
+&lt;li>Fimo (超多胶卷)&lt;/li>
+&lt;li>极影相机 （免费，功能丰富）&lt;/li>
+&lt;li>Leica Lux (徕卡官方App,仅用免费的徕卡滤镜和徕卡水印)&lt;/li>
+&lt;/ul>
+&lt;p>其中&lt;strong>Fimo&lt;/strong>和&lt;strong>极影相机&lt;/strong>这两个软件我在之前的文章也有提到过，感兴趣的话也可以去看看☺️&lt;/p>
+&lt;hr>
+&lt;h2 id="论坛分享">🙃论坛分享&lt;/h2>
+&lt;p>平时各种折腾还得靠论坛大佬的教程和资源保驾护航，所以打算分享几个个人常逛的论坛：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://bbs.pcbeta.com/">&lt;strong>远景论坛&lt;/strong>&lt;/a>: 相信玩过黑苹果的人都知道这个论坛，这个应该是国内最大的黑苹果论坛了，上面有各种大佬分享&lt;strong>EFI和镜像&lt;/strong>，而且黑苹果过程中遇到的问题基本上都能在论坛上找到解决方法，可以说玩黑苹果必备了。不过话又说回来，黑苹果在Apple转向&lt;strong>m系列芯片&lt;/strong>之后基本上也走向死亡了，不过我还是想分享一下这个属于黑苹果时代的宝藏论坛！（&lt;strong>黑苹果已死&lt;/strong>😭😭😭）&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.right.com.cn/">&lt;strong>恩山论坛&lt;/strong>&lt;/a>：如果你喜欢折腾各种&lt;strong>路由器和Openwrt&lt;/strong>，那么恩山论坛必不能错过，这个论坛上经常会有大佬分享各种编译好的wrt固件，并且论坛上的&lt;strong>帖子非常详细&lt;/strong>，像我这样完全没接触过这些领域的&lt;strong>纯小白&lt;/strong>靠着论坛上的帖子最后也成功给&lt;strong>AX3000T刷上了ImmortalWRT&lt;/strong>😇&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="系统大瘦身">💻系统大瘦身&lt;/h2>
+&lt;p>自从上次给C盘扩容后，我&lt;strong>安装软件的策略&lt;/strong>也发生了改变，虽然说C盘变大了，但是对于软件的安装我依然&lt;strong>保持谨慎&lt;/strong>，吸取上次的教训，我没有在系统重装完之后安装大量的软件，我只安装了能够最大满足我需求的软件，并且功能重叠较大的软件则&lt;strong>保留下使用最顺手的一款&lt;/strong>。对于Adobe家的软件，我没有安装Lr和Pr，只保留了最常用的PS，一方面是我基本上&lt;strong>不剪视频，也不调色&lt;/strong>（虽然想学），另一方面则是怕Adobe家的软件在我&lt;strong>系统里到处拉屎&lt;/strong>。&lt;/p>
+&lt;p>在仔细分析我的开发需求后，我只保留了&lt;strong>VSCode&lt;/strong>和Jetbrain 家的&lt;strong>IntelliJ IDEA Ultimate&lt;/strong>，这两个软件一个是编辑器，一个是适合Java的IDE，不过已经能够&lt;strong>完全满足我的前后端开发需求&lt;/strong>（安装完插件后）。不过这里还是得吐槽一下VSCode的Java开发体验，不夸张的说就算VSCode装好各种插件&lt;strong>体验依然被IDEA甩好几条街&lt;/strong>，本来以为可以&lt;strong>All in VScode&lt;/strong>的，现在看来是我想多了🤣&lt;/p>
+&lt;hr>
+&lt;h2 id="ax3000t--immortal">🛜AX3000T &amp;amp; Immortal&lt;/h2>
+&lt;p>没错，我又折腾上了我的路由器，相比于&lt;a href="https://linsnow.cn/posts/cyberlife/log-01/">我的赛博生活01&lt;/a>那篇博客里不同的是，这一次我给AX3000T刷上了自己编译定制的&lt;strong>ImmortalWRT&lt;/strong>。&lt;/p>
+&lt;p>固件仅支持小米AX3000T v1 !基于hanwckf大佬的&lt;a href="https://github.com/hanwckf/immortalwrt-mt798x">immortalwrt-mt798x&lt;/a>进行编译，同样使用h大提供的的&lt;a href="https://github.com/hanwckf/bl-mt798x/releases">mt798x uboot&lt;/a>进行刷入引导。&lt;/p>
+&lt;p>&lt;strong>固件特点：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>内核版本：5.4.284。 Openwrt版本： ImmortalWrt 21.02-SNAPSHOT&lt;/li>
+&lt;li>小闪存友好（整个固件仅19.2MB）&lt;/li>
+&lt;li>只保留OC用于支持爱国上网&lt;/li>
+&lt;li>移除原固件不必要的bootstrap mod主题&lt;/li>
+&lt;li>支持Upnp和友好的ipv6-helper&lt;/li>
+&lt;li>&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="immortalwrt.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="AX3000T &amp;amp;&amp;amp; ImmortalWRT" 
+ 
+ />
+&lt;/p>
+&lt;p>我已经将编译好的固件&lt;strong>分享到了恩山论坛&lt;/strong>，原贴地址：&lt;a href="https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;amp;tid=8414406&amp;amp;fromuid=921205">传送门&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="jetbrain续杯啦">☕JetBrain续杯啦&lt;/h2>
+&lt;p>前几天IDEA突然给我弹了个非常陌生的通知，没错，我的IDEA许可证将在&lt;strong>二十几天后过期&lt;/strong>，看到这条消息的我愣了一下，毕竟springboot正写的火热，你给我弹这个消息。至从上次学生认证完之后我就再也没有去管过&lt;strong>许可证的到期时间&lt;/strong>了，一直以为是可以直接用到毕业，没想到是&lt;strong>每隔一年要续一次&lt;/strong>，还好我的学生证还在我身边，学信网的在线验证码也很容易获取，于是我立马提交了续订资料，向之前一样，这次依然走的&lt;strong>人工通道&lt;/strong>，效率还行，大概花了三四天左右吧，比上次快了很多。这不，今天就收到了续订成功通知，爽歪歪！😁（IDEA YYDS!）&lt;/p>
+&lt;p>&lt;img src="jetbrain.webp" 
+ loading="lazy" 
+ decoding="async" 
+ alt="Jetbrain续订成功" 
+ 
+ />
+&lt;/p>
+&lt;hr>
+&lt;h2 id="tika能用吗">🦖Tika能用吗&lt;/h2>
+&lt;p>为了能&lt;strong>快速学习和巩固新的知识&lt;/strong>，我做了个功能非常简陋的Todo Web 应用，技术栈大概如下：&lt;/p>
+&lt;ul>
+&lt;li>前端： Vue、Nuxt.js、Nuxt UI、Typescript、Tailwind CSS &amp;hellip;&lt;/li>
+&lt;li>后端： Springboot 3、 MyBatis&amp;hellip;&lt;/li>
+&lt;li>数据库：MySQL、Redis&lt;/li>
+&lt;li>其它：Docker、Nginx&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;p>个人感觉目前算是&lt;strong>半成品&lt;/strong>吧，但是&lt;strong>基本上能用&lt;/strong>，等大二下学期开学我就拿来替换掉我的原先使用的Todoist，先自己用用看。&lt;/p></description></item><item><title>2024年终总结</title><link>https://linsnow.cn/posts/dailylife/2024_summary/</link><pubDate>Wed, 01 Jan 2025 13:10:04 +0800</pubDate><guid>https://linsnow.cn/posts/dailylife/2024_summary/</guid><description>&lt;blockquote>
 &lt;p>“回望2024，这一年像一场多彩的旅程，有高峰也有低谷，但每一步都让我更接近自己想成为的人。”&lt;/p>&lt;/blockquote>
 &lt;p>现在是2025年1月1日，大二上这学期也接近了尾声，不出意外，现在是令人厌烦的期末周。时间真的过得太快了，仿佛我们总是在追赶着什么，却忘了慢下来去感受。回望这一年，我意识到，许多时光都在匆忙和忙碌中流逝，但有些瞬间却深深地刻在了我的记忆里。&lt;/p>
 &lt;hr>
